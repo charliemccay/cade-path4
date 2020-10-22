@@ -1,0 +1,18 @@
+EventID,pathway,Node,DecisionTable,Attribute,Value,Date
+481,Path1,Initial_patient_GP_Visit,,,,2005-11-20T00:00:00
+481,Path1,Initial_patient_GP_Visit,,UUID,219a45c4-9603-44f6-8c53-f17e15e5f86a,2005-11-20T00:00:00
+481,Path1,Initial_patient_GP_Visit,,NhsNumber,7832003812,2005-11-20T00:00:00
+481,Path1,Initial_patient_GP_Visit,,randID,5.242206138581755,2005-11-20T00:00:00
+481,Path1,Initial_patient_GP_Visit,,anotheTest,{'Value': UUID('800f2657-d655-42ff-8179-9ee51015bccd')},2005-11-20T00:00:00
+482,Path1,patient_assessment,,,,2005-11-20T00:00:00
+483,Path1,test_request,,,,2005-11-20T00:14:00
+484,Path1,Specimen_check,,,,2005-11-20T00:14:00
+485,Path1,specimen_ready_for_test,,,,2005-11-20T00:14:00
+486,Path1,lab_test,,,,2005-11-20T00:14:00
+487,Path1,test_report,,,,2005-11-20T00:26:00
+488,Path1,send_report,,,,2005-11-20T00:26:00
+489,Path1,receive_report,,,,2005-11-20T00:26:00
+490,Path1,GP_checks_report,,,,2005-11-20T00:26:00
+491,Path1,inform_patient,,,,2005-11-20T00:26:00
+492,Path1,Finish,,,,2005-11-20T09:26:00
+493,Path1,Finish,,,,2005-11-20T09:26:00

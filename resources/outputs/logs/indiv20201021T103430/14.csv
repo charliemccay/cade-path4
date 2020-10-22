@@ -1,0 +1,18 @@
+EventID,pathway,Node,DecisionTable,Attribute,Value,Date
+104,Path1,Initial_patient_GP_Visit,,,,1958-02-18T00:00:00
+104,Path1,Initial_patient_GP_Visit,,UUID,0cc5657d-8f44-4cf5-bdb9-bd4fa010e12c,1958-02-18T00:00:00
+104,Path1,Initial_patient_GP_Visit,,NhsNumber,7832003812,1958-02-18T00:00:00
+104,Path1,Initial_patient_GP_Visit,,randID,5.366227739188537,1958-02-18T00:00:00
+104,Path1,Initial_patient_GP_Visit,,anotheTest,{'Value': UUID('d8cabb87-3fd7-450c-b603-502101ce51cb')},1958-02-18T00:00:00
+105,Path1,patient_assessment,,,,1958-02-18T00:00:00
+106,Path1,test_request,,,,1958-02-18T00:48:00
+107,Path1,Specimen_check,,,,1958-02-18T00:48:00
+108,Path1,specimen_ready_for_test,,,,1958-02-18T00:48:00
+109,Path1,lab_test,,,,1958-02-18T00:48:00
+110,Path1,test_report,,,,1958-02-18T00:50:00
+111,Path1,send_report,,,,1958-02-18T00:50:00
+112,Path1,receive_report,,,,1958-02-18T00:50:00
+113,Path1,GP_checks_report,,,,1958-02-18T00:50:00
+114,Path1,inform_patient,,,,1958-02-18T00:50:00
+115,Path1,Finish,,,,1958-02-18T21:50:00
+116,Path1,Finish,,,,1958-02-18T21:50:00

@@ -1,0 +1,18 @@
+EventID,pathway,Node,DecisionTable,Attribute,Value,Date
+637,Path1,Initial_patient_GP_Visit,,,,2017-04-26T00:00:00
+637,Path1,Initial_patient_GP_Visit,,UUID,a4e0f7bf-4c23-4726-ad5b-7192807049e5,2017-04-26T00:00:00
+637,Path1,Initial_patient_GP_Visit,,NhsNumber,7832003812,2017-04-26T00:00:00
+637,Path1,Initial_patient_GP_Visit,,randID,4.389274317634767,2017-04-26T00:00:00
+637,Path1,Initial_patient_GP_Visit,,anotheTest,{'Value': UUID('1ae9f1ad-764e-4535-8c79-e6939faaa9e5')},2017-04-26T00:00:00
+638,Path1,patient_assessment,,,,2017-04-26T00:00:00
+639,Path1,test_request,,,,2017-04-26T00:21:00
+640,Path1,Specimen_check,,,,2017-04-26T00:21:00
+641,Path1,specimen_ready_for_test,,,,2017-04-26T00:21:00
+642,Path1,lab_test,,,,2017-04-26T00:21:00
+643,Path1,test_report,,,,2017-04-26T00:26:00
+644,Path1,send_report,,,,2017-04-26T00:26:00
+645,Path1,receive_report,,,,2017-04-26T00:26:00
+646,Path1,GP_checks_report,,,,2017-04-26T00:26:00
+647,Path1,inform_patient,,,,2017-04-26T00:26:00
+648,Path1,Finish,,,,2017-04-26T22:26:00
+649,Path1,Finish,,,,2017-04-26T22:26:00

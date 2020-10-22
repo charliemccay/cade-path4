@@ -1,0 +1,18 @@
+EventID,pathway,Node,DecisionTable,Attribute,Value,Date
+299,Path1,Initial_patient_GP_Visit,,,,1979-11-06T00:00:00
+299,Path1,Initial_patient_GP_Visit,,UUID,acded74d-c735-4002-9a34-5105eaeb1a5c,1979-11-06T00:00:00
+299,Path1,Initial_patient_GP_Visit,,NhsNumber,7832003812,1979-11-06T00:00:00
+299,Path1,Initial_patient_GP_Visit,,randID,4.738824890712108,1979-11-06T00:00:00
+299,Path1,Initial_patient_GP_Visit,,anotheTest,{'Value': UUID('6cbf3d80-bf55-46ae-bcdf-b15ceba6aa6a')},1979-11-06T00:00:00
+300,Path1,patient_assessment,,,,1979-11-06T00:00:00
+301,Path1,test_request,,,,1979-11-06T00:31:00
+302,Path1,Specimen_check,,,,1979-11-06T00:31:00
+303,Path1,specimen_ready_for_test,,,,1979-11-06T00:31:00
+304,Path1,lab_test,,,,1979-11-06T00:31:00
+305,Path1,test_report,,,,1979-11-06T00:45:00
+306,Path1,send_report,,,,1979-11-06T00:45:00
+307,Path1,receive_report,,,,1979-11-06T00:45:00
+308,Path1,GP_checks_report,,,,1979-11-06T00:45:00
+309,Path1,inform_patient,,,,1979-11-06T00:45:00
+310,Path1,Finish,,,,1979-11-06T08:45:00
+311,Path1,Finish,,,,1979-11-06T08:45:00

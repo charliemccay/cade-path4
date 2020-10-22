@@ -1,0 +1,18 @@
+EventID,pathway,Node,DecisionTable,Attribute,Value,Date
+416,Path1,Initial_patient_GP_Visit,,,,1992-06-12T00:00:00
+416,Path1,Initial_patient_GP_Visit,,UUID,6fdbde31-0484-40bf-b5e1-83e23e35e4e1,1992-06-12T00:00:00
+416,Path1,Initial_patient_GP_Visit,,NhsNumber,7832003812,1992-06-12T00:00:00
+416,Path1,Initial_patient_GP_Visit,,randID,4.19486175337258,1992-06-12T00:00:00
+416,Path1,Initial_patient_GP_Visit,,anotheTest,{'Value': UUID('634413b3-ff10-45bd-8762-d893c85d86a0')},1992-06-12T00:00:00
+417,Path1,patient_assessment,,,,1992-06-12T00:00:00
+418,Path1,test_request,,,,1992-06-12T00:14:00
+419,Path1,Specimen_check,,,,1992-06-12T00:14:00
+420,Path1,specimen_ready_for_test,,,,1992-06-12T00:14:00
+421,Path1,lab_test,,,,1992-06-12T00:14:00
+422,Path1,test_report,,,,1992-06-12T00:27:00
+423,Path1,send_report,,,,1992-06-12T00:27:00
+424,Path1,receive_report,,,,1992-06-12T00:27:00
+425,Path1,GP_checks_report,,,,1992-06-12T00:27:00
+426,Path1,inform_patient,,,,1992-06-12T00:27:00
+427,Path1,Finish,,,,1992-06-12T07:27:00
+428,Path1,Finish,,,,1992-06-12T07:27:00

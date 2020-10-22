@@ -1,0 +1,883 @@
+TimeStamp,EventID,PersonID,pathway,Node,DecisionTable,Attribute,Value,DateTime
+10.34.32,0,37,Path1,Start,,,,1927-01-02T00:00:00
+10.34.32,0,37,Path1,Start,,UUID,eed06cca-d73f-493b-a4e6-fb81f46874cf,1927-01-02T00:00:00
+10.34.32,0,37,Path1,Start,,NhsNumber,7832003812,1927-01-02T00:00:00
+10.34.32,0,37,Path1,Start,,randID,4.48928164529163,1927-01-02T00:00:00
+10.34.32,0,37,Path1,Start,,anotheTest,{'Value': UUID('be3518d2-7004-4f8f-bd31-739be100ba78')},1927-01-02T00:00:00
+10.34.32,1,37,Path1,Initial_patient_GP_Visit,,Delay Until - ,1927-01-02 00:41:00,1927-01-02T00:00:00
+10.34.32,2,37,Path1,patient_assessment,,,,1927-01-02T00:41:00
+10.34.32,3,37,Path1,test_request,,,,1927-01-02T00:41:00
+10.34.32,4,37,Path1,Specimen_check,,,,1927-01-02T00:41:00
+10.34.32,5,37,Path1,specimen_ready_for_test,,Delay Until - ,1927-01-02 01:06:00,1927-01-02T00:41:00
+10.34.32,6,37,Path1,lab_test,,,,1927-01-02T01:06:00
+10.34.32,7,37,Path1,test_report,,,,1927-01-02T01:06:00
+10.34.32,8,37,Path1,send_report,,,,1927-01-02T01:06:00
+10.34.32,9,37,Path1,receive_report,,,,1927-01-02T01:06:00
+10.34.32,10,37,Path1,GP_checks_report,,Delay Until - ,1927-01-02 17:06:00,1927-01-02T01:06:00
+10.34.32,11,37,Path1,inform_patient,,,,1927-01-02T17:06:00
+10.34.32,12,37,Path1,Finish,,,,1927-01-02T17:06:00
+10.34.32,13,12,Path1,Start,,,,1936-09-22T00:00:00
+10.34.32,13,12,Path1,Start,,UUID,e60cb08f-e51c-4ff5-a2db-895b8a045746,1936-09-22T00:00:00
+10.34.32,13,12,Path1,Start,,NhsNumber,7832003812,1936-09-22T00:00:00
+10.34.32,13,12,Path1,Start,,randID,4.316037770571394,1936-09-22T00:00:00
+10.34.32,13,12,Path1,Start,,anotheTest,{'Value': UUID('ac675658-4450-429b-ab1e-c0b5dfc12df8')},1936-09-22T00:00:00
+10.34.32,14,12,Path1,Initial_patient_GP_Visit,,Delay Until - ,1936-09-22 00:31:00,1936-09-22T00:00:00
+10.34.32,15,12,Path1,patient_assessment,,,,1936-09-22T00:31:00
+10.34.32,16,12,Path1,test_request,,,,1936-09-22T00:31:00
+10.34.32,17,12,Path1,Specimen_check,,,,1936-09-22T00:31:00
+10.34.32,18,12,Path1,specimen_ready_for_test,,Delay Until - ,1936-09-22 01:00:00,1936-09-22T00:31:00
+10.34.32,19,12,Path1,lab_test,,,,1936-09-22T01:00:00
+10.34.32,20,12,Path1,test_report,,,,1936-09-22T01:00:00
+10.34.32,21,12,Path1,send_report,,,,1936-09-22T01:00:00
+10.34.32,22,12,Path1,receive_report,,,,1936-09-22T01:00:00
+10.34.32,23,12,Path1,GP_checks_report,,Delay Until - ,1936-09-22 08:00:00,1936-09-22T01:00:00
+10.34.32,24,12,Path1,inform_patient,,,,1936-09-22T08:00:00
+10.34.32,25,12,Path1,Finish,,,,1936-09-22T08:00:00
+10.34.32,26,29,Path1,Start,,,,1939-06-27T00:00:00
+10.34.32,26,29,Path1,Start,,UUID,b48f6c47-477a-48ab-8fc9-0cffd479c3cb,1939-06-27T00:00:00
+10.34.32,26,29,Path1,Start,,NhsNumber,7832003812,1939-06-27T00:00:00
+10.34.32,26,29,Path1,Start,,randID,4.00030023262723,1939-06-27T00:00:00
+10.34.32,26,29,Path1,Start,,anotheTest,{'Value': UUID('f61d89f2-683a-41ac-b857-576ffad129b8')},1939-06-27T00:00:00
+10.34.32,27,29,Path1,Initial_patient_GP_Visit,,Delay Until - ,1939-06-27 00:39:00,1939-06-27T00:00:00
+10.34.32,28,29,Path1,patient_assessment,,,,1939-06-27T00:39:00
+10.34.32,29,29,Path1,test_request,,,,1939-06-27T00:39:00
+10.34.32,30,29,Path1,Specimen_check,,,,1939-06-27T00:39:00
+10.34.32,31,29,Path1,specimen_ready_for_test,,Delay Until - ,1939-06-27 00:43:00,1939-06-27T00:39:00
+10.34.32,32,29,Path1,lab_test,,,,1939-06-27T00:43:00
+10.34.32,33,29,Path1,test_report,,,,1939-06-27T00:43:00
+10.34.32,34,29,Path1,send_report,,,,1939-06-27T00:43:00
+10.34.32,35,29,Path1,receive_report,,,,1939-06-27T00:43:00
+10.34.32,36,29,Path1,GP_checks_report,,Delay Until - ,1939-06-27 12:43:00,1939-06-27T00:43:00
+10.34.32,37,29,Path1,inform_patient,,,,1939-06-27T12:43:00
+10.34.32,38,29,Path1,Finish,,,,1939-06-27T12:43:00
+10.34.32,39,39,Path1,Start,,,,1941-10-18T00:00:00
+10.34.32,39,39,Path1,Start,,UUID,c1b7fc60-7ee4-4cce-b553-ecaf933c0d4c,1941-10-18T00:00:00
+10.34.32,39,39,Path1,Start,,NhsNumber,7832003812,1941-10-18T00:00:00
+10.34.32,39,39,Path1,Start,,randID,4.0568049057201,1941-10-18T00:00:00
+10.34.32,39,39,Path1,Start,,anotheTest,{'Value': UUID('6587b050-dbcd-4b30-8c6e-5ab42f301100')},1941-10-18T00:00:00
+10.34.32,40,39,Path1,Initial_patient_GP_Visit,,Delay Until - ,1941-10-18 00:46:00,1941-10-18T00:00:00
+10.34.32,41,39,Path1,patient_assessment,,,,1941-10-18T00:46:00
+10.34.32,42,39,Path1,test_request,,,,1941-10-18T00:46:00
+10.34.32,43,39,Path1,Specimen_check,,,,1941-10-18T00:46:00
+10.34.32,44,39,Path1,specimen_ready_for_test,,Delay Until - ,1941-10-18 01:05:00,1941-10-18T00:46:00
+10.34.32,45,39,Path1,lab_test,,,,1941-10-18T01:05:00
+10.34.32,46,39,Path1,test_report,,,,1941-10-18T01:05:00
+10.34.32,47,39,Path1,send_report,,,,1941-10-18T01:05:00
+10.34.32,48,39,Path1,receive_report,,,,1941-10-18T01:05:00
+10.34.32,49,39,Path1,GP_checks_report,,Delay Until - ,1941-10-19 00:05:00,1941-10-18T01:05:00
+10.34.32,50,39,Path1,inform_patient,,,,1941-10-19T00:05:00
+10.34.32,51,39,Path1,Finish,,,,1941-10-19T00:05:00
+10.34.32,52,24,Path1,Start,,,,1948-09-23T00:00:00
+10.34.32,52,24,Path1,Start,,UUID,40bb9115-1baa-4105-865d-5a23a33ceecf,1948-09-23T00:00:00
+10.34.32,52,24,Path1,Start,,NhsNumber,7832003812,1948-09-23T00:00:00
+10.34.32,52,24,Path1,Start,,randID,4.260115901280466,1948-09-23T00:00:00
+10.34.32,52,24,Path1,Start,,anotheTest,{'Value': UUID('0a9d4335-3098-4625-bb80-fd19fb91a1a5')},1948-09-23T00:00:00
+10.34.32,53,24,Path1,Initial_patient_GP_Visit,,Delay Until - ,1948-09-23 00:23:00,1948-09-23T00:00:00
+10.34.32,54,24,Path1,patient_assessment,,,,1948-09-23T00:23:00
+10.34.32,55,24,Path1,test_request,,,,1948-09-23T00:23:00
+10.34.32,56,24,Path1,Specimen_check,,,,1948-09-23T00:23:00
+10.34.32,57,24,Path1,specimen_ready_for_test,,Delay Until - ,1948-09-23 00:53:00,1948-09-23T00:23:00
+10.34.32,58,24,Path1,lab_test,,,,1948-09-23T00:53:00
+10.34.32,59,24,Path1,test_report,,,,1948-09-23T00:53:00
+10.34.32,60,24,Path1,send_report,,,,1948-09-23T00:53:00
+10.34.32,61,24,Path1,receive_report,,,,1948-09-23T00:53:00
+10.34.32,62,24,Path1,GP_checks_report,,Delay Until - ,1948-09-23 02:53:00,1948-09-23T00:53:00
+10.34.32,63,24,Path1,inform_patient,,,,1948-09-23T02:53:00
+10.34.32,64,24,Path1,Finish,,,,1948-09-23T02:53:00
+10.34.32,65,10,Path1,Start,,,,1948-11-27T00:00:00
+10.34.32,65,10,Path1,Start,,UUID,d5e42ebb-6fb6-4092-89aa-985a8e41fb58,1948-11-27T00:00:00
+10.34.32,65,10,Path1,Start,,NhsNumber,7832003812,1948-11-27T00:00:00
+10.34.32,65,10,Path1,Start,,randID,4.346896785848604,1948-11-27T00:00:00
+10.34.32,65,10,Path1,Start,,anotheTest,{'Value': UUID('de8cafb8-35fd-4e01-a4b9-c34e1f4f46b6')},1948-11-27T00:00:00
+10.34.32,66,10,Path1,Initial_patient_GP_Visit,,Delay Until - ,1948-11-27 00:19:00,1948-11-27T00:00:00
+10.34.32,67,10,Path1,patient_assessment,,,,1948-11-27T00:19:00
+10.34.32,68,10,Path1,test_request,,,,1948-11-27T00:19:00
+10.34.32,69,10,Path1,Specimen_check,,,,1948-11-27T00:19:00
+10.34.32,70,10,Path1,specimen_ready_for_test,,Delay Until - ,1948-11-27 00:48:00,1948-11-27T00:19:00
+10.34.32,71,10,Path1,lab_test,,,,1948-11-27T00:48:00
+10.34.32,72,10,Path1,test_report,,,,1948-11-27T00:48:00
+10.34.32,73,10,Path1,send_report,,,,1948-11-27T00:48:00
+10.34.32,74,10,Path1,receive_report,,,,1948-11-27T00:48:00
+10.34.32,75,10,Path1,GP_checks_report,,Delay Until - ,1948-11-27 04:48:00,1948-11-27T00:48:00
+10.34.32,76,10,Path1,inform_patient,,,,1948-11-27T04:48:00
+10.34.32,77,10,Path1,Finish,,,,1948-11-27T04:48:00
+10.34.32,78,32,Path1,Start,,,,1949-05-03T00:00:00
+10.34.32,78,32,Path1,Start,,UUID,ca6bf10b-9904-4275-a0d4-4fabe0cfb7ef,1949-05-03T00:00:00
+10.34.32,78,32,Path1,Start,,NhsNumber,7832003812,1949-05-03T00:00:00
+10.34.32,78,32,Path1,Start,,randID,5.294592645000481,1949-05-03T00:00:00
+10.34.32,78,32,Path1,Start,,anotheTest,{'Value': UUID('c4adfa65-d37b-49a6-b80e-651598f91b96')},1949-05-03T00:00:00
+10.34.32,79,32,Path1,Initial_patient_GP_Visit,,Delay Until - ,1949-05-03 00:42:00,1949-05-03T00:00:00
+10.34.32,80,32,Path1,patient_assessment,,,,1949-05-03T00:42:00
+10.34.32,81,32,Path1,test_request,,,,1949-05-03T00:42:00
+10.34.32,82,32,Path1,Specimen_check,,,,1949-05-03T00:42:00
+10.34.32,83,32,Path1,specimen_ready_for_test,,Delay Until - ,1949-05-03 00:54:00,1949-05-03T00:42:00
+10.34.32,84,32,Path1,lab_test,,,,1949-05-03T00:54:00
+10.34.32,85,32,Path1,test_report,,,,1949-05-03T00:54:00
+10.34.32,86,32,Path1,send_report,,,,1949-05-03T00:54:00
+10.34.32,87,32,Path1,receive_report,,,,1949-05-03T00:54:00
+10.34.32,88,32,Path1,GP_checks_report,,Delay Until - ,1949-05-03 16:54:00,1949-05-03T00:54:00
+10.34.32,89,32,Path1,inform_patient,,,,1949-05-03T16:54:00
+10.34.32,90,32,Path1,Finish,,,,1949-05-03T16:54:00
+10.34.32,91,48,Path1,Start,,,,1952-05-29T00:00:00
+10.34.32,91,48,Path1,Start,,UUID,191014f1-372b-401e-af02-fce1b9a45567,1952-05-29T00:00:00
+10.34.32,91,48,Path1,Start,,NhsNumber,7832003812,1952-05-29T00:00:00
+10.34.32,91,48,Path1,Start,,randID,4.857574031204134,1952-05-29T00:00:00
+10.34.32,91,48,Path1,Start,,anotheTest,{'Value': UUID('488989a9-a10f-4e37-bef4-72bb5d44caaf')},1952-05-29T00:00:00
+10.34.32,92,48,Path1,Initial_patient_GP_Visit,,Delay Until - ,1952-05-29 00:36:00,1952-05-29T00:00:00
+10.34.32,93,48,Path1,patient_assessment,,,,1952-05-29T00:36:00
+10.34.32,94,48,Path1,test_request,,,,1952-05-29T00:36:00
+10.34.32,95,48,Path1,Specimen_check,,,,1952-05-29T00:36:00
+10.34.32,96,48,Path1,specimen_ready_for_test,,Delay Until - ,1952-05-29 01:02:00,1952-05-29T00:36:00
+10.34.32,97,48,Path1,lab_test,,,,1952-05-29T01:02:00
+10.34.32,98,48,Path1,test_report,,,,1952-05-29T01:02:00
+10.34.32,99,48,Path1,send_report,,,,1952-05-29T01:02:00
+10.34.32,100,48,Path1,receive_report,,,,1952-05-29T01:02:00
+10.34.32,101,48,Path1,GP_checks_report,,Delay Until - ,1952-05-29 21:02:00,1952-05-29T01:02:00
+10.34.32,102,48,Path1,inform_patient,,,,1952-05-29T21:02:00
+10.34.32,103,48,Path1,Finish,,,,1952-05-29T21:02:00
+10.34.32,104,14,Path1,Start,,,,1958-02-18T00:00:00
+10.34.32,104,14,Path1,Start,,UUID,0cc5657d-8f44-4cf5-bdb9-bd4fa010e12c,1958-02-18T00:00:00
+10.34.32,104,14,Path1,Start,,NhsNumber,7832003812,1958-02-18T00:00:00
+10.34.32,104,14,Path1,Start,,randID,5.366227739188537,1958-02-18T00:00:00
+10.34.32,104,14,Path1,Start,,anotheTest,{'Value': UUID('d8cabb87-3fd7-450c-b603-502101ce51cb')},1958-02-18T00:00:00
+10.34.32,105,14,Path1,Initial_patient_GP_Visit,,Delay Until - ,1958-02-18 00:48:00,1958-02-18T00:00:00
+10.34.32,106,14,Path1,patient_assessment,,,,1958-02-18T00:48:00
+10.34.32,107,14,Path1,test_request,,,,1958-02-18T00:48:00
+10.34.32,108,14,Path1,Specimen_check,,,,1958-02-18T00:48:00
+10.34.32,109,14,Path1,specimen_ready_for_test,,Delay Until - ,1958-02-18 00:50:00,1958-02-18T00:48:00
+10.34.32,110,14,Path1,lab_test,,,,1958-02-18T00:50:00
+10.34.32,111,14,Path1,test_report,,,,1958-02-18T00:50:00
+10.34.32,112,14,Path1,send_report,,,,1958-02-18T00:50:00
+10.34.32,113,14,Path1,receive_report,,,,1958-02-18T00:50:00
+10.34.32,114,14,Path1,GP_checks_report,,Delay Until - ,1958-02-18 21:50:00,1958-02-18T00:50:00
+10.34.32,115,14,Path1,inform_patient,,,,1958-02-18T21:50:00
+10.34.32,116,14,Path1,Finish,,,,1958-02-18T21:50:00
+10.34.32,117,30,Path1,Start,,,,1958-09-27T00:00:00
+10.34.32,117,30,Path1,Start,,UUID,13f1537d-1e82-413f-ade9-8d19fe9469fb,1958-09-27T00:00:00
+10.34.32,117,30,Path1,Start,,NhsNumber,7832003812,1958-09-27T00:00:00
+10.34.32,117,30,Path1,Start,,randID,5.1259816533146685,1958-09-27T00:00:00
+10.34.32,117,30,Path1,Start,,anotheTest,{'Value': UUID('932f58bc-0d59-452e-8b2d-7befee18ad42')},1958-09-27T00:00:00
+10.34.32,118,30,Path1,Initial_patient_GP_Visit,,Delay Until - ,1958-09-27 00:14:00,1958-09-27T00:00:00
+10.34.32,119,30,Path1,patient_assessment,,,,1958-09-27T00:14:00
+10.34.32,120,30,Path1,test_request,,,,1958-09-27T00:14:00
+10.34.32,121,30,Path1,Specimen_check,,,,1958-09-27T00:14:00
+10.34.32,122,30,Path1,specimen_ready_for_test,,Delay Until - ,1958-09-27 00:35:00,1958-09-27T00:14:00
+10.34.32,123,30,Path1,lab_test,,,,1958-09-27T00:35:00
+10.34.32,124,30,Path1,test_report,,,,1958-09-27T00:35:00
+10.34.32,125,30,Path1,send_report,,,,1958-09-27T00:35:00
+10.34.32,126,30,Path1,receive_report,,,,1958-09-27T00:35:00
+10.34.32,127,30,Path1,GP_checks_report,,Delay Until - ,1958-09-27 16:35:00,1958-09-27T00:35:00
+10.34.32,128,30,Path1,inform_patient,,,,1958-09-27T16:35:00
+10.34.32,129,30,Path1,Finish,,,,1958-09-27T16:35:00
+10.34.32,130,17,Path1,Start,,,,1961-06-21T00:00:00
+10.34.32,130,17,Path1,Start,,UUID,c8303452-1136-49d6-b7a0-883dc73662b2,1961-06-21T00:00:00
+10.34.32,130,17,Path1,Start,,NhsNumber,7832003812,1961-06-21T00:00:00
+10.34.33,130,17,Path1,Start,,randID,4.710381614157546,1961-06-21T00:00:00
+10.34.33,130,17,Path1,Start,,anotheTest,{'Value': UUID('99fd8e70-6fab-41c3-bf67-645a1db79d19')},1961-06-21T00:00:00
+10.34.33,131,17,Path1,Initial_patient_GP_Visit,,Delay Until - ,1961-06-21 00:34:00,1961-06-21T00:00:00
+10.34.33,132,17,Path1,patient_assessment,,,,1961-06-21T00:34:00
+10.34.33,133,17,Path1,test_request,,,,1961-06-21T00:34:00
+10.34.33,134,17,Path1,Specimen_check,,,,1961-06-21T00:34:00
+10.34.33,135,17,Path1,specimen_ready_for_test,,Delay Until - ,1961-06-21 01:02:00,1961-06-21T00:34:00
+10.34.33,136,17,Path1,lab_test,,,,1961-06-21T01:02:00
+10.34.33,137,17,Path1,test_report,,,,1961-06-21T01:02:00
+10.34.33,138,17,Path1,send_report,,,,1961-06-21T01:02:00
+10.34.33,139,17,Path1,receive_report,,,,1961-06-21T01:02:00
+10.34.33,140,17,Path1,GP_checks_report,,Delay Until - ,1961-06-21 23:02:00,1961-06-21T01:02:00
+10.34.33,141,17,Path1,inform_patient,,,,1961-06-21T23:02:00
+10.34.33,142,17,Path1,Finish,,,,1961-06-21T23:02:00
+10.34.33,143,5,Path1,Start,,,,1963-11-12T00:00:00
+10.34.33,143,5,Path1,Start,,UUID,22da3acf-2e85-41cd-a2a1-3455ef555efa,1963-11-12T00:00:00
+10.34.33,143,5,Path1,Start,,NhsNumber,7832003812,1963-11-12T00:00:00
+10.34.33,143,5,Path1,Start,,randID,4.796169940487165,1963-11-12T00:00:00
+10.34.33,143,5,Path1,Start,,anotheTest,{'Value': UUID('44f3be81-cc9c-4682-9373-e760f4aed983')},1963-11-12T00:00:00
+10.34.33,144,5,Path1,Initial_patient_GP_Visit,,Delay Until - ,1963-11-12 00:49:00,1963-11-12T00:00:00
+10.34.33,145,5,Path1,patient_assessment,,,,1963-11-12T00:49:00
+10.34.33,146,5,Path1,test_request,,,,1963-11-12T00:49:00
+10.34.33,147,5,Path1,Specimen_check,,,,1963-11-12T00:49:00
+10.34.33,148,5,Path1,specimen_ready_for_test,,Delay Until - ,1963-11-12 01:05:00,1963-11-12T00:49:00
+10.34.33,149,5,Path1,lab_test,,,,1963-11-12T01:05:00
+10.34.33,150,5,Path1,test_report,,,,1963-11-12T01:05:00
+10.34.33,151,5,Path1,send_report,,,,1963-11-12T01:05:00
+10.34.33,152,5,Path1,receive_report,,,,1963-11-12T01:05:00
+10.34.33,153,5,Path1,GP_checks_report,,Delay Until - ,1963-11-12 19:05:00,1963-11-12T01:05:00
+10.34.33,154,5,Path1,inform_patient,,,,1963-11-12T19:05:00
+10.34.33,155,5,Path1,Finish,,,,1963-11-12T19:05:00
+10.34.33,156,15,Path1,Start,,,,1964-09-24T00:00:00
+10.34.33,156,15,Path1,Start,,UUID,3cb7b108-31f6-417a-98f2-5a91e4496651,1964-09-24T00:00:00
+10.34.33,156,15,Path1,Start,,NhsNumber,7832003812,1964-09-24T00:00:00
+10.34.33,156,15,Path1,Start,,randID,4.772607983303217,1964-09-24T00:00:00
+10.34.33,156,15,Path1,Start,,anotheTest,{'Value': UUID('4e03c7ce-d82e-4c59-9b10-2736a29d4fb1')},1964-09-24T00:00:00
+10.34.33,157,15,Path1,Initial_patient_GP_Visit,,Delay Until - ,1964-09-24 00:16:00,1964-09-24T00:00:00
+10.34.33,158,15,Path1,patient_assessment,,,,1964-09-24T00:16:00
+10.34.33,159,15,Path1,test_request,,,,1964-09-24T00:16:00
+10.34.33,160,15,Path1,Specimen_check,,,,1964-09-24T00:16:00
+10.34.33,161,15,Path1,specimen_ready_for_test,,Delay Until - ,1964-09-24 00:34:00,1964-09-24T00:16:00
+10.34.33,162,15,Path1,lab_test,,,,1964-09-24T00:34:00
+10.34.33,163,15,Path1,test_report,,,,1964-09-24T00:34:00
+10.34.33,164,15,Path1,send_report,,,,1964-09-24T00:34:00
+10.34.33,165,15,Path1,receive_report,,,,1964-09-24T00:34:00
+10.34.33,166,15,Path1,GP_checks_report,,Delay Until - ,1964-09-24 22:34:00,1964-09-24T00:34:00
+10.34.33,167,15,Path1,inform_patient,,,,1964-09-24T22:34:00
+10.34.33,168,15,Path1,Finish,,,,1964-09-24T22:34:00
+10.34.33,169,31,Path1,Start,,,,1964-10-30T00:00:00
+10.34.33,169,31,Path1,Start,,UUID,5f5e87fe-5720-4de1-a37a-453a5867e7ff,1964-10-30T00:00:00
+10.34.33,169,31,Path1,Start,,NhsNumber,7832003812,1964-10-30T00:00:00
+10.34.33,169,31,Path1,Start,,randID,5.03047900967873,1964-10-30T00:00:00
+10.34.33,169,31,Path1,Start,,anotheTest,{'Value': UUID('9580157c-f5b2-4c6e-b549-a0abfc63a844')},1964-10-30T00:00:00
+10.34.33,170,31,Path1,Initial_patient_GP_Visit,,Delay Until - ,1964-10-30 00:42:00,1964-10-30T00:00:00
+10.34.33,171,31,Path1,patient_assessment,,,,1964-10-30T00:42:00
+10.34.33,172,31,Path1,test_request,,,,1964-10-30T00:42:00
+10.34.33,173,31,Path1,Specimen_check,,,,1964-10-30T00:42:00
+10.34.33,174,31,Path1,specimen_ready_for_test,,Delay Until - ,1964-10-30 00:58:00,1964-10-30T00:42:00
+10.34.33,175,31,Path1,lab_test,,,,1964-10-30T00:58:00
+10.34.33,176,31,Path1,test_report,,,,1964-10-30T00:58:00
+10.34.33,177,31,Path1,send_report,,,,1964-10-30T00:58:00
+10.34.33,178,31,Path1,receive_report,,,,1964-10-30T00:58:00
+10.34.33,179,31,Path1,GP_checks_report,,Delay Until - ,1964-10-30 20:58:00,1964-10-30T00:58:00
+10.34.33,180,31,Path1,inform_patient,,,,1964-10-30T20:58:00
+10.34.33,181,31,Path1,Finish,,,,1964-10-30T20:58:00
+10.34.33,182,36,Path1,Start,,,,1967-03-13T00:00:00
+10.34.33,182,36,Path1,Start,,UUID,385a6e11-823a-4d6c-aa33-2e56cc369d3d,1967-03-13T00:00:00
+10.34.33,182,36,Path1,Start,,NhsNumber,7832003812,1967-03-13T00:00:00
+10.34.33,182,36,Path1,Start,,randID,4.780970552421359,1967-03-13T00:00:00
+10.34.33,182,36,Path1,Start,,anotheTest,{'Value': UUID('91fe19f5-5a5d-49d4-9962-e00a942c787b')},1967-03-13T00:00:00
+10.34.33,183,36,Path1,Initial_patient_GP_Visit,,Delay Until - ,1967-03-13 00:27:00,1967-03-13T00:00:00
+10.34.33,184,36,Path1,patient_assessment,,,,1967-03-13T00:27:00
+10.34.33,185,36,Path1,test_request,,,,1967-03-13T00:27:00
+10.34.33,186,36,Path1,Specimen_check,,,,1967-03-13T00:27:00
+10.34.33,187,36,Path1,specimen_ready_for_test,,Delay Until - ,1967-03-13 00:38:00,1967-03-13T00:27:00
+10.34.33,188,36,Path1,lab_test,,,,1967-03-13T00:38:00
+10.34.33,189,36,Path1,test_report,,,,1967-03-13T00:38:00
+10.34.33,190,36,Path1,send_report,,,,1967-03-13T00:38:00
+10.34.33,191,36,Path1,receive_report,,,,1967-03-13T00:38:00
+10.34.33,192,36,Path1,GP_checks_report,,Delay Until - ,1967-03-13 19:38:00,1967-03-13T00:38:00
+10.34.33,193,36,Path1,inform_patient,,,,1967-03-13T19:38:00
+10.34.33,194,36,Path1,Finish,,,,1967-03-13T19:38:00
+10.34.33,195,26,Path1,Start,,,,1967-07-04T00:00:00
+10.34.33,195,26,Path1,Start,,UUID,2cfd5c4b-30f6-4d52-adf2-4a7212e1962c,1967-07-04T00:00:00
+10.34.33,195,26,Path1,Start,,NhsNumber,7832003812,1967-07-04T00:00:00
+10.34.33,195,26,Path1,Start,,randID,4.394681974842384,1967-07-04T00:00:00
+10.34.33,195,26,Path1,Start,,anotheTest,{'Value': UUID('fa37f413-7676-436a-b2e6-4126dcafdd9c')},1967-07-04T00:00:00
+10.34.33,196,26,Path1,Initial_patient_GP_Visit,,Delay Until - ,1967-07-04 00:23:00,1967-07-04T00:00:00
+10.34.33,197,26,Path1,patient_assessment,,,,1967-07-04T00:23:00
+10.34.33,198,26,Path1,test_request,,,,1967-07-04T00:23:00
+10.34.33,199,26,Path1,Specimen_check,,,,1967-07-04T00:23:00
+10.34.33,200,26,Path1,specimen_ready_for_test,,Delay Until - ,1967-07-04 00:46:00,1967-07-04T00:23:00
+10.34.33,201,26,Path1,lab_test,,,,1967-07-04T00:46:00
+10.34.33,202,26,Path1,test_report,,,,1967-07-04T00:46:00
+10.34.33,203,26,Path1,send_report,,,,1967-07-04T00:46:00
+10.34.33,204,26,Path1,receive_report,,,,1967-07-04T00:46:00
+10.34.33,205,26,Path1,GP_checks_report,,Delay Until - ,1967-07-04 17:46:00,1967-07-04T00:46:00
+10.34.33,206,26,Path1,inform_patient,,,,1967-07-04T17:46:00
+10.34.33,207,26,Path1,Finish,,,,1967-07-04T17:46:00
+10.34.33,208,23,Path1,Start,,,,1971-04-30T00:00:00
+10.34.33,208,23,Path1,Start,,UUID,c46186aa-df97-4a12-8696-e4a9f420489a,1971-04-30T00:00:00
+10.34.33,208,23,Path1,Start,,NhsNumber,7832003812,1971-04-30T00:00:00
+10.34.33,208,23,Path1,Start,,randID,4.343220317321122,1971-04-30T00:00:00
+10.34.33,208,23,Path1,Start,,anotheTest,{'Value': UUID('cf37129f-1a28-4739-81c2-0833038bfb63')},1971-04-30T00:00:00
+10.34.33,209,23,Path1,Initial_patient_GP_Visit,,Delay Until - ,1971-04-30 00:16:00,1971-04-30T00:00:00
+10.34.33,210,23,Path1,patient_assessment,,,,1971-04-30T00:16:00
+10.34.33,211,23,Path1,test_request,,,,1971-04-30T00:16:00
+10.34.33,212,23,Path1,Specimen_check,,,,1971-04-30T00:16:00
+10.34.33,213,23,Path1,specimen_ready_for_test,,Delay Until - ,1971-04-30 00:40:00,1971-04-30T00:16:00
+10.34.33,214,23,Path1,lab_test,,,,1971-04-30T00:40:00
+10.34.33,215,23,Path1,test_report,,,,1971-04-30T00:40:00
+10.34.33,216,23,Path1,send_report,,,,1971-04-30T00:40:00
+10.34.33,217,23,Path1,receive_report,,,,1971-04-30T00:40:00
+10.34.33,218,23,Path1,GP_checks_report,,Delay Until - ,1971-04-30 19:40:00,1971-04-30T00:40:00
+10.34.33,219,23,Path1,inform_patient,,,,1971-04-30T19:40:00
+10.34.33,220,23,Path1,Finish,,,,1971-04-30T19:40:00
+10.34.33,221,33,Path1,Start,,,,1972-10-20T00:00:00
+10.34.33,221,33,Path1,Start,,UUID,70f611bc-ec26-4141-b50c-317cfa846003,1972-10-20T00:00:00
+10.34.33,221,33,Path1,Start,,NhsNumber,7832003812,1972-10-20T00:00:00
+10.34.33,221,33,Path1,Start,,randID,4.813414068601082,1972-10-20T00:00:00
+10.34.33,221,33,Path1,Start,,anotheTest,{'Value': UUID('1dd611c2-b3e9-4ee6-8eac-abd7eab87e9d')},1972-10-20T00:00:00
+10.34.33,222,33,Path1,Initial_patient_GP_Visit,,Delay Until - ,1972-10-20 00:27:00,1972-10-20T00:00:00
+10.34.33,223,33,Path1,patient_assessment,,,,1972-10-20T00:27:00
+10.34.33,224,33,Path1,test_request,,,,1972-10-20T00:27:00
+10.34.33,225,33,Path1,Specimen_check,,,,1972-10-20T00:27:00
+10.34.33,226,33,Path1,specimen_ready_for_test,,Delay Until - ,1972-10-20 00:55:00,1972-10-20T00:27:00
+10.34.33,227,33,Path1,lab_test,,,,1972-10-20T00:55:00
+10.34.33,228,33,Path1,test_report,,,,1972-10-20T00:55:00
+10.34.33,229,33,Path1,send_report,,,,1972-10-20T00:55:00
+10.34.33,230,33,Path1,receive_report,,,,1972-10-20T00:55:00
+10.34.33,231,33,Path1,GP_checks_report,,Delay Until - ,1972-10-20 09:55:00,1972-10-20T00:55:00
+10.34.33,232,33,Path1,inform_patient,,,,1972-10-20T09:55:00
+10.34.33,233,33,Path1,Finish,,,,1972-10-20T09:55:00
+10.34.33,234,1,Path1,Start,,,,1972-11-09T00:00:00
+10.34.33,234,1,Path1,Start,,UUID,6beb8539-31d7-4ff4-9b3e-029a4470c081,1972-11-09T00:00:00
+10.34.33,234,1,Path1,Start,,NhsNumber,7832003812,1972-11-09T00:00:00
+10.34.33,234,1,Path1,Start,,randID,4.741093421321851,1972-11-09T00:00:00
+10.34.33,234,1,Path1,Start,,anotheTest,{'Value': UUID('3bafe1e8-5631-4f64-907d-158ca748b751')},1972-11-09T00:00:00
+10.34.33,235,1,Path1,Initial_patient_GP_Visit,,Delay Until - ,1972-11-09 00:30:00,1972-11-09T00:00:00
+10.34.33,236,1,Path1,patient_assessment,,,,1972-11-09T00:30:00
+10.34.33,236,1,Path1,patient_assessment,,PatientRcorded,TRUE,1972-11-09T00:30:00
+10.34.33,237,1,Path1,test_request,,,,1972-11-09T00:30:00
+10.34.33,237,1,Path1,test_request,,PerformingOrg,"{'Code': 'TKD13', 'DisplayName': 'Midtown District Hospital', 'AddressLine': 'Beckett Street', 'AddressCity': 'Leeds', 'AddressDistrict': 'West YorkShire', 'AddressPostalCode': 'LS9 7TF'}",1972-11-09T00:30:00
+10.34.33,237,1,Path1,test_request,,RequestingHCP,"{'Code': 'G6040649', 'DisplayName': 'Dr Jane Green'}",1972-11-09T00:30:00
+10.34.33,237,1,Path1,test_request,,OrgRequesting,"{'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}",1972-11-09T00:30:00
+10.34.33,238,1,Path1,Specimen_check,,,,1972-11-09T00:30:00
+10.34.34,238,1,Path1,Specimen_check,,Request,"{'Code': '26604007', 'DisplayName': 'FBC - Full blood count', 'text': 'FBC'}",1972-11-09T00:30:00
+10.34.34,238,1,Path1,Specimen_check,,Specimen,"{'Code': '53130003', 'DisplayName': 'Venous blood (substance)'}",1972-11-09T00:30:00
+10.34.34,238,1,Path1,Specimen_check,,CollectingHCP,"{'Code': 'J7040649', 'DisplayName': 'Alice Jones'}",1972-11-09T00:30:00
+10.34.34,238,1,Path1,Specimen_check,,OrgCollecting,"{'Code': 'D82015', 'DisplayName': 'Manor GP Practice', 'AddressLine': '30/32 Bridge Street', 'AddressCity': 'Downham Market', 'AddressDistrict': 'Norfolk', 'AddressPostalCode': 'PE38 9DH'}",1972-11-09T00:30:00
+10.34.34,239,1,Path1,specimen_ready_for_test,,Delay Until - ,1972-11-09 00:36:00,1972-11-09T00:30:00
+10.34.34,240,1,Path1,lab_test,,,,1972-11-09T00:36:00
+10.34.34,240,1,Path1,lab_test,,obs,"{'code': '1000381000000105', 'DisplayName': 'Se prostate specific Ag level', 'value': 78, 'unit': 'ug/L', 'unit_code': 'ug/L', 'system': 'http://unitsofmeasure.org'}",1972-11-09T00:36:00
+10.34.34,240,1,Path1,lab_test,,PerformingHCP,"{'Code': 'J7040649', 'DisplayName': 'Alice Jones'}",1972-11-09T00:36:00
+10.34.34,241,1,Path1,test_report,,,,1972-11-09T00:36:00
+10.34.34,242,1,Path1,send_report,,,,1972-11-09T00:36:00
+10.34.34,242,1,Path1,send_report,,Report,"{'Code': '1028441000000104', 'DisplayName': 'Potassium Level (Observable entity)'}",1972-11-09T00:36:00
+10.34.48,242,1,Path1,send_report,,BundleSent,TRUE,1972-11-09T00:36:00
+10.34.48,243,1,Path1,receive_report,,,,1972-11-09T00:36:00
+10.34.48,243,1,Path1,receive_report,,Observation,"{'Value': '4.8', 'Unit': 'mmol/L', 'ReferenceLow': '3.5', 'ReferenceHigh': '5.3'}",1972-11-09T00:36:00
+10.34.48,244,1,Path1,GP_checks_report,,Delay Until - ,1972-11-09 08:36:00,1972-11-09T00:36:00
+10.34.48,245,1,Path1,inform_patient,,,,1972-11-09T08:36:00
+10.34.48,245,1,Path1,inform_patient,,listing_provided,TRUE,1972-11-09T08:36:00
+10.34.48,245,1,Path1,inform_patient,,json_provided,TRUE,1972-11-09T08:36:00
+10.34.48,246,1,Path1,Finish,,,,1972-11-09T08:36:00
+10.34.48,247,38,Path1,Start,,,,1973-07-05T00:00:00
+10.34.48,247,38,Path1,Start,,UUID,e42724cf-a51d-49c8-8d78-87a6056ad380,1973-07-05T00:00:00
+10.34.48,247,38,Path1,Start,,NhsNumber,7832003812,1973-07-05T00:00:00
+10.34.48,247,38,Path1,Start,,randID,4.084535201752881,1973-07-05T00:00:00
+10.34.48,247,38,Path1,Start,,anotheTest,{'Value': UUID('9f1e46d9-a8fe-404c-8200-ac7ad294077a')},1973-07-05T00:00:00
+10.34.48,248,38,Path1,Initial_patient_GP_Visit,,Delay Until - ,1973-07-05 00:31:00,1973-07-05T00:00:00
+10.34.48,249,38,Path1,patient_assessment,,,,1973-07-05T00:31:00
+10.34.48,250,38,Path1,test_request,,,,1973-07-05T00:31:00
+10.34.48,251,38,Path1,Specimen_check,,,,1973-07-05T00:31:00
+10.34.48,252,38,Path1,specimen_ready_for_test,,Delay Until - ,1973-07-05 01:01:00,1973-07-05T00:31:00
+10.34.48,253,38,Path1,lab_test,,,,1973-07-05T01:01:00
+10.34.48,254,38,Path1,test_report,,,,1973-07-05T01:01:00
+10.34.48,255,38,Path1,send_report,,,,1973-07-05T01:01:00
+10.34.48,256,38,Path1,receive_report,,,,1973-07-05T01:01:00
+10.34.48,257,38,Path1,GP_checks_report,,Delay Until - ,1973-07-05 11:01:00,1973-07-05T01:01:00
+10.34.48,258,38,Path1,inform_patient,,,,1973-07-05T11:01:00
+10.34.48,259,38,Path1,Finish,,,,1973-07-05T11:01:00
+10.34.48,260,22,Path1,Start,,,,1975-08-07T00:00:00
+10.34.48,260,22,Path1,Start,,UUID,c8e21ab0-6f07-4dee-8116-55da2764c98f,1975-08-07T00:00:00
+10.34.48,260,22,Path1,Start,,NhsNumber,7832003812,1975-08-07T00:00:00
+10.34.48,260,22,Path1,Start,,randID,5.303155066805277,1975-08-07T00:00:00
+10.34.48,260,22,Path1,Start,,anotheTest,{'Value': UUID('74d8a6e5-14a4-4b10-9923-67d44ca7a91c')},1975-08-07T00:00:00
+10.34.48,261,22,Path1,Initial_patient_GP_Visit,,Delay Until - ,1975-08-07 00:32:00,1975-08-07T00:00:00
+10.34.48,262,22,Path1,patient_assessment,,,,1975-08-07T00:32:00
+10.34.48,263,22,Path1,test_request,,,,1975-08-07T00:32:00
+10.34.48,264,22,Path1,Specimen_check,,,,1975-08-07T00:32:00
+10.34.48,265,22,Path1,specimen_ready_for_test,,Delay Until - ,1975-08-07 00:43:00,1975-08-07T00:32:00
+10.34.48,266,22,Path1,lab_test,,,,1975-08-07T00:43:00
+10.34.48,267,22,Path1,test_report,,,,1975-08-07T00:43:00
+10.34.48,268,22,Path1,send_report,,,,1975-08-07T00:43:00
+10.34.48,269,22,Path1,receive_report,,,,1975-08-07T00:43:00
+10.34.48,270,22,Path1,GP_checks_report,,Delay Until - ,1975-08-07 04:43:00,1975-08-07T00:43:00
+10.34.48,271,22,Path1,inform_patient,,,,1975-08-07T04:43:00
+10.34.48,272,22,Path1,Finish,,,,1975-08-07T04:43:00
+10.34.48,273,0,Path1,Start,,,,1977-11-05T00:00:00
+10.34.48,273,0,Path1,Start,,UUID,5dc9c081-3730-46f9-ac9a-39f2ce0defa2,1977-11-05T00:00:00
+10.34.48,273,0,Path1,Start,,NhsNumber,7832003812,1977-11-05T00:00:00
+10.34.48,273,0,Path1,Start,,randID,5.374181259351913,1977-11-05T00:00:00
+10.34.48,273,0,Path1,Start,,anotheTest,{'Value': UUID('966f006f-3724-44a1-a5b3-e0a615597dc1')},1977-11-05T00:00:00
+10.34.48,274,0,Path1,Initial_patient_GP_Visit,,Delay Until - ,1977-11-05 00:43:00,1977-11-05T00:00:00
+10.34.48,275,0,Path1,patient_assessment,,,,1977-11-05T00:43:00
+10.34.48,276,0,Path1,test_request,,,,1977-11-05T00:43:00
+10.34.48,277,0,Path1,Specimen_check,,,,1977-11-05T00:43:00
+10.34.48,278,0,Path1,specimen_ready_for_test,,Delay Until - ,1977-11-05 01:00:00,1977-11-05T00:43:00
+10.34.48,279,0,Path1,lab_test,,,,1977-11-05T01:00:00
+10.34.48,280,0,Path1,test_report,,,,1977-11-05T01:00:00
+10.34.48,281,0,Path1,send_report,,,,1977-11-05T01:00:00
+10.34.48,282,0,Path1,receive_report,,,,1977-11-05T01:00:00
+10.34.48,283,0,Path1,GP_checks_report,,Delay Until - ,1977-11-05 03:00:00,1977-11-05T01:00:00
+10.34.48,284,0,Path1,inform_patient,,,,1977-11-05T03:00:00
+10.34.48,285,0,Path1,Finish,,,,1977-11-05T03:00:00
+10.34.48,286,9,Path1,Start,,,,1978-11-08T00:00:00
+10.34.48,286,9,Path1,Start,,UUID,0a1e0655-cb25-407a-ac4d-5765fb317ecd,1978-11-08T00:00:00
+10.34.48,286,9,Path1,Start,,NhsNumber,7832003812,1978-11-08T00:00:00
+10.34.48,286,9,Path1,Start,,randID,4.015631255042486,1978-11-08T00:00:00
+10.34.48,286,9,Path1,Start,,anotheTest,{'Value': UUID('762c1927-5659-4ba1-b978-7e6d2adb810d')},1978-11-08T00:00:00
+10.34.48,287,9,Path1,Initial_patient_GP_Visit,,Delay Until - ,1978-11-08 00:10:00,1978-11-08T00:00:00
+10.34.48,288,9,Path1,patient_assessment,,,,1978-11-08T00:10:00
+10.34.48,289,9,Path1,test_request,,,,1978-11-08T00:10:00
+10.34.48,290,9,Path1,Specimen_check,,,,1978-11-08T00:10:00
+10.34.48,291,9,Path1,specimen_ready_for_test,,Delay Until - ,1978-11-08 00:21:00,1978-11-08T00:10:00
+10.34.48,292,9,Path1,lab_test,,,,1978-11-08T00:21:00
+10.34.48,293,9,Path1,test_report,,,,1978-11-08T00:21:00
+10.34.48,294,9,Path1,send_report,,,,1978-11-08T00:21:00
+10.34.48,295,9,Path1,receive_report,,,,1978-11-08T00:21:00
+10.34.48,296,9,Path1,GP_checks_report,,Delay Until - ,1978-11-08 11:21:00,1978-11-08T00:21:00
+10.34.48,297,9,Path1,inform_patient,,,,1978-11-08T11:21:00
+10.34.48,298,9,Path1,Finish,,,,1978-11-08T11:21:00
+10.34.48,299,20,Path1,Start,,,,1979-11-06T00:00:00
+10.34.48,299,20,Path1,Start,,UUID,acded74d-c735-4002-9a34-5105eaeb1a5c,1979-11-06T00:00:00
+10.34.48,299,20,Path1,Start,,NhsNumber,7832003812,1979-11-06T00:00:00
+10.34.48,299,20,Path1,Start,,randID,4.738824890712108,1979-11-06T00:00:00
+10.34.48,299,20,Path1,Start,,anotheTest,{'Value': UUID('6cbf3d80-bf55-46ae-bcdf-b15ceba6aa6a')},1979-11-06T00:00:00
+10.34.48,300,20,Path1,Initial_patient_GP_Visit,,Delay Until - ,1979-11-06 00:31:00,1979-11-06T00:00:00
+10.34.48,301,20,Path1,patient_assessment,,,,1979-11-06T00:31:00
+10.34.48,302,20,Path1,test_request,,,,1979-11-06T00:31:00
+10.34.48,303,20,Path1,Specimen_check,,,,1979-11-06T00:31:00
+10.34.48,304,20,Path1,specimen_ready_for_test,,Delay Until - ,1979-11-06 00:45:00,1979-11-06T00:31:00
+10.34.48,305,20,Path1,lab_test,,,,1979-11-06T00:45:00
+10.34.48,306,20,Path1,test_report,,,,1979-11-06T00:45:00
+10.34.48,307,20,Path1,send_report,,,,1979-11-06T00:45:00
+10.34.48,308,20,Path1,receive_report,,,,1979-11-06T00:45:00
+10.34.48,309,20,Path1,GP_checks_report,,Delay Until - ,1979-11-06 08:45:00,1979-11-06T00:45:00
+10.34.48,310,20,Path1,inform_patient,,,,1979-11-06T08:45:00
+10.34.48,311,20,Path1,Finish,,,,1979-11-06T08:45:00
+10.34.48,312,7,Path1,Start,,,,1981-06-16T00:00:00
+10.34.48,312,7,Path1,Start,,UUID,0ca380d4-541d-4ab6-b167-62bcd6b5c698,1981-06-16T00:00:00
+10.34.48,312,7,Path1,Start,,NhsNumber,7832003812,1981-06-16T00:00:00
+10.34.48,312,7,Path1,Start,,randID,4.093289694475293,1981-06-16T00:00:00
+10.34.48,312,7,Path1,Start,,anotheTest,{'Value': UUID('5ac9318d-a437-4cd0-b810-d5f79743d68f')},1981-06-16T00:00:00
+10.34.48,313,7,Path1,Initial_patient_GP_Visit,,Delay Until - ,1981-06-16 00:50:00,1981-06-16T00:00:00
+10.34.48,314,7,Path1,patient_assessment,,,,1981-06-16T00:50:00
+10.34.48,315,7,Path1,test_request,,,,1981-06-16T00:50:00
+10.34.48,316,7,Path1,Specimen_check,,,,1981-06-16T00:50:00
+10.34.48,317,7,Path1,specimen_ready_for_test,,Delay Until - ,1981-06-16 01:01:00,1981-06-16T00:50:00
+10.34.48,318,7,Path1,lab_test,,,,1981-06-16T01:01:00
+10.34.48,319,7,Path1,test_report,,,,1981-06-16T01:01:00
+10.34.48,320,7,Path1,send_report,,,,1981-06-16T01:01:00
+10.34.48,321,7,Path1,receive_report,,,,1981-06-16T01:01:00
+10.34.48,322,7,Path1,GP_checks_report,,Delay Until - ,1981-06-16 04:01:00,1981-06-16T01:01:00
+10.34.48,323,7,Path1,inform_patient,,,,1981-06-16T04:01:00
+10.34.48,324,7,Path1,Finish,,,,1981-06-16T04:01:00
+10.34.48,325,3,Path1,Start,,,,1982-02-09T00:00:00
+10.34.48,325,3,Path1,Start,,UUID,0c20a948-2176-4536-895e-5979172f1d13,1982-02-09T00:00:00
+10.34.48,325,3,Path1,Start,,NhsNumber,7832003812,1982-02-09T00:00:00
+10.34.48,325,3,Path1,Start,,randID,4.011025063838698,1982-02-09T00:00:00
+10.34.48,325,3,Path1,Start,,anotheTest,{'Value': UUID('8b0f7300-5979-4eea-808d-d45e93a17e37')},1982-02-09T00:00:00
+10.34.48,326,3,Path1,Initial_patient_GP_Visit,,Delay Until - ,1982-02-09 00:46:00,1982-02-09T00:00:00
+10.34.48,327,3,Path1,patient_assessment,,,,1982-02-09T00:46:00
+10.34.48,328,3,Path1,test_request,,,,1982-02-09T00:46:00
+10.34.48,329,3,Path1,Specimen_check,,,,1982-02-09T00:46:00
+10.34.48,330,3,Path1,specimen_ready_for_test,,Delay Until - ,1982-02-09 01:06:00,1982-02-09T00:46:00
+10.34.48,331,3,Path1,lab_test,,,,1982-02-09T01:06:00
+10.34.48,332,3,Path1,test_report,,,,1982-02-09T01:06:00
+10.34.48,333,3,Path1,send_report,,,,1982-02-09T01:06:00
+10.34.48,334,3,Path1,receive_report,,,,1982-02-09T01:06:00
+10.34.48,335,3,Path1,GP_checks_report,,Delay Until - ,1982-02-09 19:06:00,1982-02-09T01:06:00
+10.34.48,336,3,Path1,inform_patient,,,,1982-02-09T19:06:00
+10.34.48,337,3,Path1,Finish,,,,1982-02-09T19:06:00
+10.34.48,338,27,Path1,Start,,,,1984-08-20T00:00:00
+10.34.48,338,27,Path1,Start,,UUID,f1d7c3a3-d45a-4cf4-aa96-82bbae87ef1b,1984-08-20T00:00:00
+10.34.48,338,27,Path1,Start,,NhsNumber,7832003812,1984-08-20T00:00:00
+10.34.48,338,27,Path1,Start,,randID,4.64560660101918,1984-08-20T00:00:00
+10.34.48,338,27,Path1,Start,,anotheTest,{'Value': UUID('66cbc6fe-3b58-41ab-9747-4cad80674080')},1984-08-20T00:00:00
+10.34.48,339,27,Path1,Initial_patient_GP_Visit,,Delay Until - ,1984-08-20 00:14:00,1984-08-20T00:00:00
+10.34.48,340,27,Path1,patient_assessment,,,,1984-08-20T00:14:00
+10.34.48,341,27,Path1,test_request,,,,1984-08-20T00:14:00
+10.34.48,342,27,Path1,Specimen_check,,,,1984-08-20T00:14:00
+10.34.48,343,27,Path1,specimen_ready_for_test,,Delay Until - ,1984-08-20 00:33:00,1984-08-20T00:14:00
+10.34.48,344,27,Path1,lab_test,,,,1984-08-20T00:33:00
+10.34.48,345,27,Path1,test_report,,,,1984-08-20T00:33:00
+10.34.48,346,27,Path1,send_report,,,,1984-08-20T00:33:00
+10.34.48,347,27,Path1,receive_report,,,,1984-08-20T00:33:00
+10.34.48,348,27,Path1,GP_checks_report,,Delay Until - ,1984-08-20 04:33:00,1984-08-20T00:33:00
+10.34.48,349,27,Path1,inform_patient,,,,1984-08-20T04:33:00
+10.34.48,350,27,Path1,Finish,,,,1984-08-20T04:33:00
+10.34.48,351,18,Path1,Start,,,,1985-01-03T00:00:00
+10.34.48,351,18,Path1,Start,,UUID,5e1bedbd-7907-41b4-85b3-d25db1d7e1e1,1985-01-03T00:00:00
+10.34.48,351,18,Path1,Start,,NhsNumber,7832003812,1985-01-03T00:00:00
+10.34.48,351,18,Path1,Start,,randID,5.142943686242764,1985-01-03T00:00:00
+10.34.48,351,18,Path1,Start,,anotheTest,{'Value': UUID('8baff755-1cc4-43bb-9568-610a872ac66c')},1985-01-03T00:00:00
+10.34.48,352,18,Path1,Initial_patient_GP_Visit,,Delay Until - ,1985-01-03 00:37:00,1985-01-03T00:00:00
+10.34.48,353,18,Path1,patient_assessment,,,,1985-01-03T00:37:00
+10.34.48,354,18,Path1,test_request,,,,1985-01-03T00:37:00
+10.34.48,355,18,Path1,Specimen_check,,,,1985-01-03T00:37:00
+10.34.48,356,18,Path1,specimen_ready_for_test,,Delay Until - ,1985-01-03 00:47:00,1985-01-03T00:37:00
+10.34.48,357,18,Path1,lab_test,,,,1985-01-03T00:47:00
+10.34.48,358,18,Path1,test_report,,,,1985-01-03T00:47:00
+10.34.48,359,18,Path1,send_report,,,,1985-01-03T00:47:00
+10.34.48,360,18,Path1,receive_report,,,,1985-01-03T00:47:00
+10.34.48,361,18,Path1,GP_checks_report,,Delay Until - ,1985-01-03 05:47:00,1985-01-03T00:47:00
+10.34.48,362,18,Path1,inform_patient,,,,1985-01-03T05:47:00
+10.34.48,363,18,Path1,Finish,,,,1985-01-03T05:47:00
+10.34.48,364,44,Path1,Start,,,,1987-01-06T00:00:00
+10.34.48,364,44,Path1,Start,,UUID,6bbfa488-e7ca-4089-a7b9-e1edbd291f48,1987-01-06T00:00:00
+10.34.48,364,44,Path1,Start,,NhsNumber,7832003812,1987-01-06T00:00:00
+10.34.48,364,44,Path1,Start,,randID,4.332929689315016,1987-01-06T00:00:00
+10.34.48,364,44,Path1,Start,,anotheTest,{'Value': UUID('0bb14458-0273-4af2-b385-4151ae39beb4')},1987-01-06T00:00:00
+10.34.48,365,44,Path1,Initial_patient_GP_Visit,,Delay Until - ,1987-01-06 00:24:00,1987-01-06T00:00:00
+10.34.48,366,44,Path1,patient_assessment,,,,1987-01-06T00:24:00
+10.34.48,367,44,Path1,test_request,,,,1987-01-06T00:24:00
+10.34.48,368,44,Path1,Specimen_check,,,,1987-01-06T00:24:00
+10.34.48,369,44,Path1,specimen_ready_for_test,,Delay Until - ,1987-01-06 00:40:00,1987-01-06T00:24:00
+10.34.48,370,44,Path1,lab_test,,,,1987-01-06T00:40:00
+10.34.48,371,44,Path1,test_report,,,,1987-01-06T00:40:00
+10.34.48,372,44,Path1,send_report,,,,1987-01-06T00:40:00
+10.34.48,373,44,Path1,receive_report,,,,1987-01-06T00:40:00
+10.34.48,374,44,Path1,GP_checks_report,,Delay Until - ,1987-01-06 17:40:00,1987-01-06T00:40:00
+10.34.48,375,44,Path1,inform_patient,,,,1987-01-06T17:40:00
+10.34.48,376,44,Path1,Finish,,,,1987-01-06T17:40:00
+10.34.48,377,2,Path1,Start,,,,1987-03-11T00:00:00
+10.34.48,377,2,Path1,Start,,UUID,5b840472-a9c0-4498-8850-0b3c4bb17a11,1987-03-11T00:00:00
+10.34.48,377,2,Path1,Start,,NhsNumber,7832003812,1987-03-11T00:00:00
+10.34.48,377,2,Path1,Start,,randID,4.508097277144125,1987-03-11T00:00:00
+10.34.48,377,2,Path1,Start,,anotheTest,{'Value': UUID('b8822e04-8140-48f8-a50d-75a74452384c')},1987-03-11T00:00:00
+10.34.48,378,2,Path1,Initial_patient_GP_Visit,,Delay Until - ,1987-03-11 00:25:00,1987-03-11T00:00:00
+10.34.48,379,2,Path1,patient_assessment,,,,1987-03-11T00:25:00
+10.34.48,380,2,Path1,test_request,,,,1987-03-11T00:25:00
+10.34.48,381,2,Path1,Specimen_check,,,,1987-03-11T00:25:00
+10.34.48,382,2,Path1,specimen_ready_for_test,,Delay Until - ,1987-03-11 00:26:00,1987-03-11T00:25:00
+10.34.48,383,2,Path1,lab_test,,,,1987-03-11T00:26:00
+10.34.48,384,2,Path1,test_report,,,,1987-03-11T00:26:00
+10.34.48,385,2,Path1,send_report,,,,1987-03-11T00:26:00
+10.34.48,386,2,Path1,receive_report,,,,1987-03-11T00:26:00
+10.34.48,387,2,Path1,GP_checks_report,,Delay Until - ,1987-03-11 11:26:00,1987-03-11T00:26:00
+10.34.48,388,2,Path1,inform_patient,,,,1987-03-11T11:26:00
+10.34.48,389,2,Path1,Finish,,,,1987-03-11T11:26:00
+10.34.48,390,49,Path1,Start,,,,1987-04-12T00:00:00
+10.34.48,390,49,Path1,Start,,UUID,dce3f3cb-f28d-449a-b1ce-d151e654533e,1987-04-12T00:00:00
+10.34.48,390,49,Path1,Start,,NhsNumber,7832003812,1987-04-12T00:00:00
+10.34.48,390,49,Path1,Start,,randID,5.2536796858592485,1987-04-12T00:00:00
+10.34.48,390,49,Path1,Start,,anotheTest,{'Value': UUID('2002dabf-0947-4088-aaba-15b768ea0cca')},1987-04-12T00:00:00
+10.34.48,391,49,Path1,Initial_patient_GP_Visit,,Delay Until - ,1987-04-12 00:12:00,1987-04-12T00:00:00
+10.34.48,392,49,Path1,patient_assessment,,,,1987-04-12T00:12:00
+10.34.48,393,49,Path1,test_request,,,,1987-04-12T00:12:00
+10.34.48,394,49,Path1,Specimen_check,,,,1987-04-12T00:12:00
+10.34.48,395,49,Path1,specimen_ready_for_test,,Delay Until - ,1987-04-12 00:19:00,1987-04-12T00:12:00
+10.34.48,396,49,Path1,lab_test,,,,1987-04-12T00:19:00
+10.34.48,397,49,Path1,test_report,,,,1987-04-12T00:19:00
+10.34.48,398,49,Path1,send_report,,,,1987-04-12T00:19:00
+10.34.48,399,49,Path1,receive_report,,,,1987-04-12T00:19:00
+10.34.48,400,49,Path1,GP_checks_report,,Delay Until - ,1987-04-12 18:19:00,1987-04-12T00:19:00
+10.34.48,401,49,Path1,inform_patient,,,,1987-04-12T18:19:00
+10.34.48,402,49,Path1,Finish,,,,1987-04-12T18:19:00
+10.34.49,403,46,Path1,Start,,,,1989-07-20T00:00:00
+10.34.49,403,46,Path1,Start,,UUID,969dff61-1204-4ef3-b70d-0c845e9d0059,1989-07-20T00:00:00
+10.34.49,403,46,Path1,Start,,NhsNumber,7832003812,1989-07-20T00:00:00
+10.34.49,403,46,Path1,Start,,randID,4.664559237685278,1989-07-20T00:00:00
+10.34.49,403,46,Path1,Start,,anotheTest,{'Value': UUID('cc9d33ab-7fd1-4be4-af68-3b744420ee08')},1989-07-20T00:00:00
+10.34.49,404,46,Path1,Initial_patient_GP_Visit,,Delay Until - ,1989-07-20 00:50:00,1989-07-20T00:00:00
+10.34.49,405,46,Path1,patient_assessment,,,,1989-07-20T00:50:00
+10.34.49,406,46,Path1,test_request,,,,1989-07-20T00:50:00
+10.34.49,407,46,Path1,Specimen_check,,,,1989-07-20T00:50:00
+10.34.49,408,46,Path1,specimen_ready_for_test,,Delay Until - ,1989-07-20 01:08:00,1989-07-20T00:50:00
+10.34.49,409,46,Path1,lab_test,,,,1989-07-20T01:08:00
+10.34.49,410,46,Path1,test_report,,,,1989-07-20T01:08:00
+10.34.49,411,46,Path1,send_report,,,,1989-07-20T01:08:00
+10.34.49,412,46,Path1,receive_report,,,,1989-07-20T01:08:00
+10.34.49,413,46,Path1,GP_checks_report,,Delay Until - ,1989-07-20 10:08:00,1989-07-20T01:08:00
+10.34.49,414,46,Path1,inform_patient,,,,1989-07-20T10:08:00
+10.34.49,415,46,Path1,Finish,,,,1989-07-20T10:08:00
+10.34.49,416,13,Path1,Start,,,,1992-06-12T00:00:00
+10.34.49,416,13,Path1,Start,,UUID,6fdbde31-0484-40bf-b5e1-83e23e35e4e1,1992-06-12T00:00:00
+10.34.49,416,13,Path1,Start,,NhsNumber,7832003812,1992-06-12T00:00:00
+10.34.49,416,13,Path1,Start,,randID,4.19486175337258,1992-06-12T00:00:00
+10.34.49,416,13,Path1,Start,,anotheTest,{'Value': UUID('634413b3-ff10-45bd-8762-d893c85d86a0')},1992-06-12T00:00:00
+10.34.49,417,13,Path1,Initial_patient_GP_Visit,,Delay Until - ,1992-06-12 00:14:00,1992-06-12T00:00:00
+10.34.49,418,13,Path1,patient_assessment,,,,1992-06-12T00:14:00
+10.34.49,419,13,Path1,test_request,,,,1992-06-12T00:14:00
+10.34.49,420,13,Path1,Specimen_check,,,,1992-06-12T00:14:00
+10.34.49,421,13,Path1,specimen_ready_for_test,,Delay Until - ,1992-06-12 00:27:00,1992-06-12T00:14:00
+10.34.49,422,13,Path1,lab_test,,,,1992-06-12T00:27:00
+10.34.49,423,13,Path1,test_report,,,,1992-06-12T00:27:00
+10.34.49,424,13,Path1,send_report,,,,1992-06-12T00:27:00
+10.34.49,425,13,Path1,receive_report,,,,1992-06-12T00:27:00
+10.34.49,426,13,Path1,GP_checks_report,,Delay Until - ,1992-06-12 07:27:00,1992-06-12T00:27:00
+10.34.49,427,13,Path1,inform_patient,,,,1992-06-12T07:27:00
+10.34.49,428,13,Path1,Finish,,,,1992-06-12T07:27:00
+10.34.49,429,40,Path1,Start,,,,1996-12-11T00:00:00
+10.34.49,429,40,Path1,Start,,UUID,5e30bfe9-b52b-41f2-9b99-e352bb75bc25,1996-12-11T00:00:00
+10.34.49,429,40,Path1,Start,,NhsNumber,7832003812,1996-12-11T00:00:00
+10.34.49,429,40,Path1,Start,,randID,4.240679752268711,1996-12-11T00:00:00
+10.34.49,429,40,Path1,Start,,anotheTest,{'Value': UUID('4d3fae37-d866-4382-afac-a400d24d505c')},1996-12-11T00:00:00
+10.34.49,430,40,Path1,Initial_patient_GP_Visit,,Delay Until - ,1996-12-11 00:30:00,1996-12-11T00:00:00
+10.34.49,431,40,Path1,patient_assessment,,,,1996-12-11T00:30:00
+10.34.49,432,40,Path1,test_request,,,,1996-12-11T00:30:00
+10.34.49,433,40,Path1,Specimen_check,,,,1996-12-11T00:30:00
+10.34.49,434,40,Path1,specimen_ready_for_test,,Delay Until - ,1996-12-11 00:43:00,1996-12-11T00:30:00
+10.34.49,435,40,Path1,lab_test,,,,1996-12-11T00:43:00
+10.34.49,436,40,Path1,test_report,,,,1996-12-11T00:43:00
+10.34.49,437,40,Path1,send_report,,,,1996-12-11T00:43:00
+10.34.49,438,40,Path1,receive_report,,,,1996-12-11T00:43:00
+10.34.49,439,40,Path1,GP_checks_report,,Delay Until - ,1996-12-11 07:43:00,1996-12-11T00:43:00
+10.34.49,440,40,Path1,inform_patient,,,,1996-12-11T07:43:00
+10.34.49,441,40,Path1,Finish,,,,1996-12-11T07:43:00
+10.34.49,442,34,Path1,Start,,,,1997-11-03T00:00:00
+10.34.49,442,34,Path1,Start,,UUID,fff212ee-15f3-4f56-9b5b-4ce258b39701,1997-11-03T00:00:00
+10.34.49,442,34,Path1,Start,,NhsNumber,7832003812,1997-11-03T00:00:00
+10.34.49,442,34,Path1,Start,,randID,3.9218681675918226,1997-11-03T00:00:00
+10.34.49,442,34,Path1,Start,,anotheTest,{'Value': UUID('36b57836-52a1-4e4e-8aac-548b3e040289')},1997-11-03T00:00:00
+10.34.49,443,34,Path1,Initial_patient_GP_Visit,,Delay Until - ,1997-11-03 00:48:00,1997-11-03T00:00:00
+10.34.49,444,34,Path1,patient_assessment,,,,1997-11-03T00:48:00
+10.34.49,445,34,Path1,test_request,,,,1997-11-03T00:48:00
+10.34.49,446,34,Path1,Specimen_check,,,,1997-11-03T00:48:00
+10.34.49,447,34,Path1,specimen_ready_for_test,,Delay Until - ,1997-11-03 01:10:00,1997-11-03T00:48:00
+10.34.49,448,34,Path1,lab_test,,,,1997-11-03T01:10:00
+10.34.49,449,34,Path1,test_report,,,,1997-11-03T01:10:00
+10.34.49,450,34,Path1,send_report,,,,1997-11-03T01:10:00
+10.34.49,451,34,Path1,receive_report,,,,1997-11-03T01:10:00
+10.34.49,452,34,Path1,GP_checks_report,,Delay Until - ,1997-11-03 07:10:00,1997-11-03T01:10:00
+10.34.49,453,34,Path1,inform_patient,,,,1997-11-03T07:10:00
+10.34.49,454,34,Path1,Finish,,,,1997-11-03T07:10:00
+10.34.49,455,4,Path1,Start,,,,1998-10-08T00:00:00
+10.34.49,455,4,Path1,Start,,UUID,aa98721a-030c-4801-81ea-c9b1da7e8ddd,1998-10-08T00:00:00
+10.34.49,455,4,Path1,Start,,NhsNumber,7832003812,1998-10-08T00:00:00
+10.34.49,455,4,Path1,Start,,randID,5.346753235745659,1998-10-08T00:00:00
+10.34.49,455,4,Path1,Start,,anotheTest,{'Value': UUID('aeaa8f08-4c10-4be6-8aa7-c8da0b876707')},1998-10-08T00:00:00
+10.34.49,456,4,Path1,Initial_patient_GP_Visit,,Delay Until - ,1998-10-08 00:22:00,1998-10-08T00:00:00
+10.34.49,457,4,Path1,patient_assessment,,,,1998-10-08T00:22:00
+10.34.49,458,4,Path1,test_request,,,,1998-10-08T00:22:00
+10.34.49,459,4,Path1,Specimen_check,,,,1998-10-08T00:22:00
+10.34.49,460,4,Path1,specimen_ready_for_test,,Delay Until - ,1998-10-08 00:33:00,1998-10-08T00:22:00
+10.34.49,461,4,Path1,lab_test,,,,1998-10-08T00:33:00
+10.34.49,462,4,Path1,test_report,,,,1998-10-08T00:33:00
+10.34.49,463,4,Path1,send_report,,,,1998-10-08T00:33:00
+10.34.49,464,4,Path1,receive_report,,,,1998-10-08T00:33:00
+10.34.49,465,4,Path1,GP_checks_report,,Delay Until - ,1998-10-08 22:33:00,1998-10-08T00:33:00
+10.34.49,466,4,Path1,inform_patient,,,,1998-10-08T22:33:00
+10.34.49,467,4,Path1,Finish,,,,1998-10-08T22:33:00
+10.34.49,468,6,Path1,Start,,,,2003-12-19T00:00:00
+10.34.49,468,6,Path1,Start,,UUID,c499e486-400f-4947-b5b7-eee69ce65414,2003-12-19T00:00:00
+10.34.49,468,6,Path1,Start,,NhsNumber,7832003812,2003-12-19T00:00:00
+10.34.49,468,6,Path1,Start,,randID,5.084763016372222,2003-12-19T00:00:00
+10.34.49,468,6,Path1,Start,,anotheTest,{'Value': UUID('f0bd7c4c-3004-4f2b-81a0-e65cb28e5993')},2003-12-19T00:00:00
+10.34.49,469,6,Path1,Initial_patient_GP_Visit,,Delay Until - ,2003-12-19 00:47:00,2003-12-19T00:00:00
+10.34.49,470,6,Path1,patient_assessment,,,,2003-12-19T00:47:00
+10.34.49,471,6,Path1,test_request,,,,2003-12-19T00:47:00
+10.34.49,472,6,Path1,Specimen_check,,,,2003-12-19T00:47:00
+10.34.49,473,6,Path1,specimen_ready_for_test,,Delay Until - ,2003-12-19 00:50:00,2003-12-19T00:47:00
+10.34.49,474,6,Path1,lab_test,,,,2003-12-19T00:50:00
+10.34.49,475,6,Path1,test_report,,,,2003-12-19T00:50:00
+10.34.49,476,6,Path1,send_report,,,,2003-12-19T00:50:00
+10.34.49,477,6,Path1,receive_report,,,,2003-12-19T00:50:00
+10.34.49,478,6,Path1,GP_checks_report,,Delay Until - ,2003-12-19 13:50:00,2003-12-19T00:50:00
+10.34.49,479,6,Path1,inform_patient,,,,2003-12-19T13:50:00
+10.34.49,480,6,Path1,Finish,,,,2003-12-19T13:50:00
+10.34.49,481,45,Path1,Start,,,,2005-11-20T00:00:00
+10.34.49,481,45,Path1,Start,,UUID,219a45c4-9603-44f6-8c53-f17e15e5f86a,2005-11-20T00:00:00
+10.34.49,481,45,Path1,Start,,NhsNumber,7832003812,2005-11-20T00:00:00
+10.34.49,481,45,Path1,Start,,randID,5.242206138581755,2005-11-20T00:00:00
+10.34.49,481,45,Path1,Start,,anotheTest,{'Value': UUID('800f2657-d655-42ff-8179-9ee51015bccd')},2005-11-20T00:00:00
+10.34.49,482,45,Path1,Initial_patient_GP_Visit,,Delay Until - ,2005-11-20 00:14:00,2005-11-20T00:00:00
+10.34.49,483,45,Path1,patient_assessment,,,,2005-11-20T00:14:00
+10.34.49,484,45,Path1,test_request,,,,2005-11-20T00:14:00
+10.34.49,485,45,Path1,Specimen_check,,,,2005-11-20T00:14:00
+10.34.49,486,45,Path1,specimen_ready_for_test,,Delay Until - ,2005-11-20 00:26:00,2005-11-20T00:14:00
+10.34.49,487,45,Path1,lab_test,,,,2005-11-20T00:26:00
+10.34.49,488,45,Path1,test_report,,,,2005-11-20T00:26:00
+10.34.49,489,45,Path1,send_report,,,,2005-11-20T00:26:00
+10.34.49,490,45,Path1,receive_report,,,,2005-11-20T00:26:00
+10.34.49,491,45,Path1,GP_checks_report,,Delay Until - ,2005-11-20 09:26:00,2005-11-20T00:26:00
+10.34.49,492,45,Path1,inform_patient,,,,2005-11-20T09:26:00
+10.34.49,493,45,Path1,Finish,,,,2005-11-20T09:26:00
+10.34.49,494,47,Path1,Start,,,,2006-03-03T00:00:00
+10.34.49,494,47,Path1,Start,,UUID,851b3c73-3aa5-42e0-a455-6035ad34bde8,2006-03-03T00:00:00
+10.34.49,494,47,Path1,Start,,NhsNumber,7832003812,2006-03-03T00:00:00
+10.34.49,494,47,Path1,Start,,randID,4.718009749211844,2006-03-03T00:00:00
+10.34.49,494,47,Path1,Start,,anotheTest,{'Value': UUID('cafbb5d0-8bff-4d42-82ec-7597e72ee33c')},2006-03-03T00:00:00
+10.34.49,495,47,Path1,Initial_patient_GP_Visit,,Delay Until - ,2006-03-03 00:49:00,2006-03-03T00:00:00
+10.34.49,496,47,Path1,patient_assessment,,,,2006-03-03T00:49:00
+10.34.49,497,47,Path1,test_request,,,,2006-03-03T00:49:00
+10.34.49,498,47,Path1,Specimen_check,,,,2006-03-03T00:49:00
+10.34.49,499,47,Path1,specimen_ready_for_test,,Delay Until - ,2006-03-03 01:06:00,2006-03-03T00:49:00
+10.34.49,500,47,Path1,lab_test,,,,2006-03-03T01:06:00
+10.34.49,501,47,Path1,test_report,,,,2006-03-03T01:06:00
+10.34.49,502,47,Path1,send_report,,,,2006-03-03T01:06:00
+10.34.49,503,47,Path1,receive_report,,,,2006-03-03T01:06:00
+10.34.49,504,47,Path1,GP_checks_report,,Delay Until - ,2006-03-03 22:06:00,2006-03-03T01:06:00
+10.34.49,505,47,Path1,inform_patient,,,,2006-03-03T22:06:00
+10.34.49,506,47,Path1,Finish,,,,2006-03-03T22:06:00
+10.34.49,507,25,Path1,Start,,,,2006-05-15T00:00:00
+10.34.49,507,25,Path1,Start,,UUID,b5713a2e-a4b3-476b-8cc8-0de515db2a03,2006-05-15T00:00:00
+10.34.49,507,25,Path1,Start,,NhsNumber,7832003812,2006-05-15T00:00:00
+10.34.49,507,25,Path1,Start,,randID,5.070379581151236,2006-05-15T00:00:00
+10.34.49,507,25,Path1,Start,,anotheTest,{'Value': UUID('fe68ccf9-3509-49b0-bd36-70b3a6e8ec74')},2006-05-15T00:00:00
+10.34.49,508,25,Path1,Initial_patient_GP_Visit,,Delay Until - ,2006-05-15 00:18:00,2006-05-15T00:00:00
+10.34.49,509,25,Path1,patient_assessment,,,,2006-05-15T00:18:00
+10.34.49,510,25,Path1,test_request,,,,2006-05-15T00:18:00
+10.34.49,511,25,Path1,Specimen_check,,,,2006-05-15T00:18:00
+10.34.49,512,25,Path1,specimen_ready_for_test,,Delay Until - ,2006-05-15 00:35:00,2006-05-15T00:18:00
+10.34.49,513,25,Path1,lab_test,,,,2006-05-15T00:35:00
+10.34.49,514,25,Path1,test_report,,,,2006-05-15T00:35:00
+10.34.49,515,25,Path1,send_report,,,,2006-05-15T00:35:00
+10.34.49,516,25,Path1,receive_report,,,,2006-05-15T00:35:00
+10.34.49,517,25,Path1,GP_checks_report,,Delay Until - ,2006-05-15 23:35:00,2006-05-15T00:35:00
+10.34.49,518,25,Path1,inform_patient,,,,2006-05-15T23:35:00
+10.34.49,519,25,Path1,Finish,,,,2006-05-15T23:35:00
+10.34.49,520,35,Path1,Start,,,,2007-04-06T00:00:00
+10.34.49,520,35,Path1,Start,,UUID,dfcc494a-3d70-42c4-b2b0-2118ad221a68,2007-04-06T00:00:00
+10.34.49,520,35,Path1,Start,,NhsNumber,7832003812,2007-04-06T00:00:00
+10.34.49,520,35,Path1,Start,,randID,4.817979646748105,2007-04-06T00:00:00
+10.34.49,520,35,Path1,Start,,anotheTest,{'Value': UUID('57e0e326-666e-409e-8575-d9e04ef49b89')},2007-04-06T00:00:00
+10.34.49,521,35,Path1,Initial_patient_GP_Visit,,Delay Until - ,2007-04-06 00:33:00,2007-04-06T00:00:00
+10.34.49,522,35,Path1,patient_assessment,,,,2007-04-06T00:33:00
+10.34.49,523,35,Path1,test_request,,,,2007-04-06T00:33:00
+10.34.49,524,35,Path1,Specimen_check,,,,2007-04-06T00:33:00
+10.34.49,525,35,Path1,specimen_ready_for_test,,Delay Until - ,2007-04-06 00:56:00,2007-04-06T00:33:00
+10.34.49,526,35,Path1,lab_test,,,,2007-04-06T00:56:00
+10.34.49,527,35,Path1,test_report,,,,2007-04-06T00:56:00
+10.34.49,528,35,Path1,send_report,,,,2007-04-06T00:56:00
+10.34.49,529,35,Path1,receive_report,,,,2007-04-06T00:56:00
+10.34.49,530,35,Path1,GP_checks_report,,Delay Until - ,2007-04-06 20:56:00,2007-04-06T00:56:00
+10.34.49,531,35,Path1,inform_patient,,,,2007-04-06T20:56:00
+10.34.49,532,35,Path1,Finish,,,,2007-04-06T20:56:00
+10.34.49,533,28,Path1,Start,,,,2008-09-13T00:00:00
+10.34.49,533,28,Path1,Start,,UUID,cabc6239-28af-449f-86d9-91f683b445a0,2008-09-13T00:00:00
+10.34.49,533,28,Path1,Start,,NhsNumber,7832003812,2008-09-13T00:00:00
+10.34.49,533,28,Path1,Start,,randID,4.935868907499036,2008-09-13T00:00:00
+10.34.49,533,28,Path1,Start,,anotheTest,{'Value': UUID('2f16a725-22fe-41fa-a9ad-b4295a8428df')},2008-09-13T00:00:00
+10.34.49,534,28,Path1,Initial_patient_GP_Visit,,Delay Until - ,2008-09-13 00:28:00,2008-09-13T00:00:00
+10.34.49,535,28,Path1,patient_assessment,,,,2008-09-13T00:28:00
+10.34.49,536,28,Path1,test_request,,,,2008-09-13T00:28:00
+10.34.49,537,28,Path1,Specimen_check,,,,2008-09-13T00:28:00
+10.34.49,538,28,Path1,specimen_ready_for_test,,Delay Until - ,2008-09-13 00:54:00,2008-09-13T00:28:00
+10.34.49,539,28,Path1,lab_test,,,,2008-09-13T00:54:00
+10.34.49,540,28,Path1,test_report,,,,2008-09-13T00:54:00
+10.34.49,541,28,Path1,send_report,,,,2008-09-13T00:54:00
+10.34.49,542,28,Path1,receive_report,,,,2008-09-13T00:54:00
+10.34.49,543,28,Path1,GP_checks_report,,Delay Until - ,2008-09-13 20:54:00,2008-09-13T00:54:00
+10.34.49,544,28,Path1,inform_patient,,,,2008-09-13T20:54:00
+10.34.49,545,28,Path1,Finish,,,,2008-09-13T20:54:00
+10.34.49,546,50,Path1,Start,,,,2008-10-15T00:00:00
+10.34.49,546,50,Path1,Start,,UUID,86c84355-6a74-4400-a807-1ebd3d0d60e7,2008-10-15T00:00:00
+10.34.49,546,50,Path1,Start,,NhsNumber,7832003812,2008-10-15T00:00:00
+10.34.49,546,50,Path1,Start,,randID,4.4130932647149335,2008-10-15T00:00:00
+10.34.49,546,50,Path1,Start,,anotheTest,{'Value': UUID('4b2d17d7-ff9b-474a-bdd7-785d4c83bc66')},2008-10-15T00:00:00
+10.34.49,547,50,Path1,Initial_patient_GP_Visit,,Delay Until - ,2008-10-15 00:13:00,2008-10-15T00:00:00
+10.34.49,548,50,Path1,patient_assessment,,,,2008-10-15T00:13:00
+10.34.49,549,50,Path1,test_request,,,,2008-10-15T00:13:00
+10.34.49,550,50,Path1,Specimen_check,,,,2008-10-15T00:13:00
+10.34.49,551,50,Path1,specimen_ready_for_test,,Delay Until - ,2008-10-15 00:31:00,2008-10-15T00:13:00
+10.34.49,552,50,Path1,lab_test,,,,2008-10-15T00:31:00
+10.34.49,553,50,Path1,test_report,,,,2008-10-15T00:31:00
+10.34.49,554,50,Path1,send_report,,,,2008-10-15T00:31:00
+10.34.49,555,50,Path1,receive_report,,,,2008-10-15T00:31:00
+10.34.49,556,50,Path1,GP_checks_report,,Delay Until - ,2008-10-15 02:31:00,2008-10-15T00:31:00
+10.34.49,557,50,Path1,inform_patient,,,,2008-10-15T02:31:00
+10.34.49,558,50,Path1,Finish,,,,2008-10-15T02:31:00
+10.34.49,559,42,Path1,Start,,,,2008-11-19T00:00:00
+10.34.49,559,42,Path1,Start,,UUID,484cab33-19c6-4fbf-b39d-38167e8c2270,2008-11-19T00:00:00
+10.34.49,559,42,Path1,Start,,NhsNumber,7832003812,2008-11-19T00:00:00
+10.34.49,559,42,Path1,Start,,randID,3.961296290237295,2008-11-19T00:00:00
+10.34.49,559,42,Path1,Start,,anotheTest,{'Value': UUID('539ee6cc-57d6-44bb-8c0b-7953fa5e83d8')},2008-11-19T00:00:00
+10.34.49,560,42,Path1,Initial_patient_GP_Visit,,Delay Until - ,2008-11-19 00:49:00,2008-11-19T00:00:00
+10.34.49,561,42,Path1,patient_assessment,,,,2008-11-19T00:49:00
+10.34.49,562,42,Path1,test_request,,,,2008-11-19T00:49:00
+10.34.49,563,42,Path1,Specimen_check,,,,2008-11-19T00:49:00
+10.34.49,564,42,Path1,specimen_ready_for_test,,Delay Until - ,2008-11-19 01:09:00,2008-11-19T00:49:00
+10.34.49,565,42,Path1,lab_test,,,,2008-11-19T01:09:00
+10.34.49,566,42,Path1,test_report,,,,2008-11-19T01:09:00
+10.34.49,567,42,Path1,send_report,,,,2008-11-19T01:09:00
+10.34.49,568,42,Path1,receive_report,,,,2008-11-19T01:09:00
+10.34.49,569,42,Path1,GP_checks_report,,Delay Until - ,2008-11-19 04:09:00,2008-11-19T01:09:00
+10.34.49,570,42,Path1,inform_patient,,,,2008-11-19T04:09:00
+10.34.49,571,42,Path1,Finish,,,,2008-11-19T04:09:00
+10.34.49,572,11,Path1,Start,,,,2009-02-26T00:00:00
+10.34.49,572,11,Path1,Start,,UUID,4656ca25-1f2c-41d5-a861-c3687bc4ba67,2009-02-26T00:00:00
+10.34.49,572,11,Path1,Start,,NhsNumber,7832003812,2009-02-26T00:00:00
+10.34.49,572,11,Path1,Start,,randID,4.661273426343702,2009-02-26T00:00:00
+10.34.49,572,11,Path1,Start,,anotheTest,{'Value': UUID('cf822eb5-520e-4d02-bc05-ad64df2ffdf3')},2009-02-26T00:00:00
+10.34.49,573,11,Path1,Initial_patient_GP_Visit,,Delay Until - ,2009-02-26 00:49:00,2009-02-26T00:00:00
+10.34.49,574,11,Path1,patient_assessment,,,,2009-02-26T00:49:00
+10.34.49,575,11,Path1,test_request,,,,2009-02-26T00:49:00
+10.34.49,576,11,Path1,Specimen_check,,,,2009-02-26T00:49:00
+10.34.49,577,11,Path1,specimen_ready_for_test,,Delay Until - ,2009-02-26 01:05:00,2009-02-26T00:49:00
+10.34.49,578,11,Path1,lab_test,,,,2009-02-26T01:05:00
+10.34.49,579,11,Path1,test_report,,,,2009-02-26T01:05:00
+10.34.49,580,11,Path1,send_report,,,,2009-02-26T01:05:00
+10.34.49,581,11,Path1,receive_report,,,,2009-02-26T01:05:00
+10.34.49,582,11,Path1,GP_checks_report,,Delay Until - ,2009-02-26 02:05:00,2009-02-26T01:05:00
+10.34.49,583,11,Path1,inform_patient,,,,2009-02-26T02:05:00
+10.34.49,584,11,Path1,Finish,,,,2009-02-26T02:05:00
+10.34.49,585,21,Path1,Start,,,,2013-01-28T00:00:00
+10.34.49,585,21,Path1,Start,,UUID,3d073529-1fa2-4552-b520-6a1a4b07ada4,2013-01-28T00:00:00
+10.34.49,585,21,Path1,Start,,NhsNumber,7832003812,2013-01-28T00:00:00
+10.34.49,585,21,Path1,Start,,randID,4.9830195362268945,2013-01-28T00:00:00
+10.34.49,585,21,Path1,Start,,anotheTest,{'Value': UUID('2464919b-f168-4a9e-a381-6132b8163fbf')},2013-01-28T00:00:00
+10.34.49,586,21,Path1,Initial_patient_GP_Visit,,Delay Until - ,2013-01-28 00:12:00,2013-01-28T00:00:00
+10.34.49,587,21,Path1,patient_assessment,,,,2013-01-28T00:12:00
+10.34.49,588,21,Path1,test_request,,,,2013-01-28T00:12:00
+10.34.49,589,21,Path1,Specimen_check,,,,2013-01-28T00:12:00
+10.34.49,590,21,Path1,specimen_ready_for_test,,Delay Until - ,2013-01-28 00:13:00,2013-01-28T00:12:00
+10.34.49,591,21,Path1,lab_test,,,,2013-01-28T00:13:00
+10.34.49,592,21,Path1,test_report,,,,2013-01-28T00:13:00
+10.34.49,593,21,Path1,send_report,,,,2013-01-28T00:13:00
+10.34.49,594,21,Path1,receive_report,,,,2013-01-28T00:13:00
+10.34.49,595,21,Path1,GP_checks_report,,Delay Until - ,2013-01-28 14:13:00,2013-01-28T00:13:00
+10.34.49,596,21,Path1,inform_patient,,,,2013-01-28T14:13:00
+10.34.49,597,21,Path1,Finish,,,,2013-01-28T14:13:00
+10.34.49,598,19,Path1,Start,,,,2013-09-06T00:00:00
+10.34.49,598,19,Path1,Start,,UUID,0805704e-6100-4c49-81aa-456925d1c26f,2013-09-06T00:00:00
+10.34.49,598,19,Path1,Start,,NhsNumber,7832003812,2013-09-06T00:00:00
+10.34.49,598,19,Path1,Start,,randID,5.152768310416809,2013-09-06T00:00:00
+10.34.50,598,19,Path1,Start,,anotheTest,{'Value': UUID('44331bb8-b301-40ca-970b-1a114e7f716d')},2013-09-06T00:00:00
+10.34.50,599,19,Path1,Initial_patient_GP_Visit,,Delay Until - ,2013-09-06 00:43:00,2013-09-06T00:00:00
+10.34.50,600,19,Path1,patient_assessment,,,,2013-09-06T00:43:00
+10.34.50,601,19,Path1,test_request,,,,2013-09-06T00:43:00
+10.34.50,602,19,Path1,Specimen_check,,,,2013-09-06T00:43:00
+10.34.50,603,19,Path1,specimen_ready_for_test,,Delay Until - ,2013-09-06 01:03:00,2013-09-06T00:43:00
+10.34.50,604,19,Path1,lab_test,,,,2013-09-06T01:03:00
+10.34.50,605,19,Path1,test_report,,,,2013-09-06T01:03:00
+10.34.50,606,19,Path1,send_report,,,,2013-09-06T01:03:00
+10.34.50,607,19,Path1,receive_report,,,,2013-09-06T01:03:00
+10.34.50,608,19,Path1,GP_checks_report,,Delay Until - ,2013-09-06 15:03:00,2013-09-06T01:03:00
+10.34.50,609,19,Path1,inform_patient,,,,2013-09-06T15:03:00
+10.34.50,610,19,Path1,Finish,,,,2013-09-06T15:03:00
+10.34.50,611,43,Path1,Start,,,,2016-12-09T00:00:00
+10.34.50,611,43,Path1,Start,,UUID,e8a6655c-9e75-44fc-b5d3-dc0860f15324,2016-12-09T00:00:00
+10.34.50,611,43,Path1,Start,,NhsNumber,7832003812,2016-12-09T00:00:00
+10.34.50,611,43,Path1,Start,,randID,4.222372675795391,2016-12-09T00:00:00
+10.34.50,611,43,Path1,Start,,anotheTest,{'Value': UUID('3b88fb0e-d6d9-4e57-b4f1-3db368f67127')},2016-12-09T00:00:00
+10.34.50,612,43,Path1,Initial_patient_GP_Visit,,Delay Until - ,2016-12-09 00:50:00,2016-12-09T00:00:00
+10.34.50,613,43,Path1,patient_assessment,,,,2016-12-09T00:50:00
+10.34.50,614,43,Path1,test_request,,,,2016-12-09T00:50:00
+10.34.50,615,43,Path1,Specimen_check,,,,2016-12-09T00:50:00
+10.34.50,616,43,Path1,specimen_ready_for_test,,Delay Until - ,2016-12-09 01:06:00,2016-12-09T00:50:00
+10.34.50,617,43,Path1,lab_test,,,,2016-12-09T01:06:00
+10.34.50,618,43,Path1,test_report,,,,2016-12-09T01:06:00
+10.34.50,619,43,Path1,send_report,,,,2016-12-09T01:06:00
+10.34.50,620,43,Path1,receive_report,,,,2016-12-09T01:06:00
+10.34.50,621,43,Path1,GP_checks_report,,Delay Until - ,2016-12-09 02:06:00,2016-12-09T01:06:00
+10.34.50,622,43,Path1,inform_patient,,,,2016-12-09T02:06:00
+10.34.50,623,43,Path1,Finish,,,,2016-12-09T02:06:00
+10.34.50,624,41,Path1,Start,,,,2016-12-25T00:00:00
+10.34.50,624,41,Path1,Start,,UUID,13e93c26-a7f4-4431-918d-985089e2b560,2016-12-25T00:00:00
+10.34.50,624,41,Path1,Start,,NhsNumber,7832003812,2016-12-25T00:00:00
+10.34.50,624,41,Path1,Start,,randID,4.282726288515878,2016-12-25T00:00:00
+10.34.50,624,41,Path1,Start,,anotheTest,{'Value': UUID('1a5bb733-e04c-4215-b945-f9142d86f08d')},2016-12-25T00:00:00
+10.34.50,625,41,Path1,Initial_patient_GP_Visit,,Delay Until - ,2016-12-25 00:44:00,2016-12-25T00:00:00
+10.34.50,626,41,Path1,patient_assessment,,,,2016-12-25T00:44:00
+10.34.50,627,41,Path1,test_request,,,,2016-12-25T00:44:00
+10.34.50,628,41,Path1,Specimen_check,,,,2016-12-25T00:44:00
+10.34.50,629,41,Path1,specimen_ready_for_test,,Delay Until - ,2016-12-25 01:02:00,2016-12-25T00:44:00
+10.34.50,630,41,Path1,lab_test,,,,2016-12-25T01:02:00
+10.34.50,631,41,Path1,test_report,,,,2016-12-25T01:02:00
+10.34.50,632,41,Path1,send_report,,,,2016-12-25T01:02:00
+10.34.50,633,41,Path1,receive_report,,,,2016-12-25T01:02:00
+10.34.50,634,41,Path1,GP_checks_report,,Delay Until - ,2016-12-25 14:02:00,2016-12-25T01:02:00
+10.34.50,635,41,Path1,inform_patient,,,,2016-12-25T14:02:00
+10.34.50,636,41,Path1,Finish,,,,2016-12-25T14:02:00
+10.34.50,637,8,Path1,Start,,,,2017-04-26T00:00:00
+10.34.50,637,8,Path1,Start,,UUID,a4e0f7bf-4c23-4726-ad5b-7192807049e5,2017-04-26T00:00:00
+10.34.50,637,8,Path1,Start,,NhsNumber,7832003812,2017-04-26T00:00:00
+10.34.50,637,8,Path1,Start,,randID,4.389274317634767,2017-04-26T00:00:00
+10.34.50,637,8,Path1,Start,,anotheTest,{'Value': UUID('1ae9f1ad-764e-4535-8c79-e6939faaa9e5')},2017-04-26T00:00:00
+10.34.50,638,8,Path1,Initial_patient_GP_Visit,,Delay Until - ,2017-04-26 00:21:00,2017-04-26T00:00:00
+10.34.50,639,8,Path1,patient_assessment,,,,2017-04-26T00:21:00
+10.34.50,640,8,Path1,test_request,,,,2017-04-26T00:21:00
+10.34.50,641,8,Path1,Specimen_check,,,,2017-04-26T00:21:00
+10.34.50,642,8,Path1,specimen_ready_for_test,,Delay Until - ,2017-04-26 00:26:00,2017-04-26T00:21:00
+10.34.50,643,8,Path1,lab_test,,,,2017-04-26T00:26:00
+10.34.50,644,8,Path1,test_report,,,,2017-04-26T00:26:00
+10.34.50,645,8,Path1,send_report,,,,2017-04-26T00:26:00
+10.34.50,646,8,Path1,receive_report,,,,2017-04-26T00:26:00
+10.34.50,647,8,Path1,GP_checks_report,,Delay Until - ,2017-04-26 22:26:00,2017-04-26T00:26:00
+10.34.50,648,8,Path1,inform_patient,,,,2017-04-26T22:26:00
+10.34.50,649,8,Path1,Finish,,,,2017-04-26T22:26:00
+10.34.50,650,16,Path1,Start,,,,2018-11-01T00:00:00
+10.34.50,650,16,Path1,Start,,UUID,a8389e0f-32e1-4cb3-a260-cddba89608b3,2018-11-01T00:00:00
+10.34.50,650,16,Path1,Start,,NhsNumber,7832003812,2018-11-01T00:00:00
+10.34.50,650,16,Path1,Start,,randID,4.753451417038555,2018-11-01T00:00:00
+10.34.50,650,16,Path1,Start,,anotheTest,{'Value': UUID('b51761b1-8f3d-46af-a5dd-a624acf27fa0')},2018-11-01T00:00:00
+10.34.50,651,16,Path1,Initial_patient_GP_Visit,,Delay Until - ,2018-11-01 00:16:00,2018-11-01T00:00:00
+10.34.50,652,16,Path1,patient_assessment,,,,2018-11-01T00:16:00
+10.34.50,653,16,Path1,test_request,,,,2018-11-01T00:16:00
+10.34.50,654,16,Path1,Specimen_check,,,,2018-11-01T00:16:00
+10.34.50,655,16,Path1,specimen_ready_for_test,,Delay Until - ,2018-11-01 00:43:00,2018-11-01T00:16:00
+10.34.50,656,16,Path1,lab_test,,,,2018-11-01T00:43:00
+10.34.50,657,16,Path1,test_report,,,,2018-11-01T00:43:00
+10.34.50,658,16,Path1,send_report,,,,2018-11-01T00:43:00
+10.34.50,659,16,Path1,receive_report,,,,2018-11-01T00:43:00
+10.34.50,660,16,Path1,GP_checks_report,,Delay Until - ,2018-11-01 11:43:00,2018-11-01T00:43:00
+10.34.50,661,16,Path1,inform_patient,,,,2018-11-01T11:43:00
+10.34.50,662,16,Path1,Finish,,,,2018-11-01T11:43:00
