@@ -1,0 +1,14 @@
+EventID,pathway,Node,DecisionTable,Attribute,Value,Date
+611,Path1,Initial_patient_GP_Visit,,,,2018-02-17T00:00:00
+612,Path1,patient_assessment,,,,2018-02-17T00:00:00
+613,Path1,test_request,,,,2018-02-17T00:38:00
+614,Path1,Specimen_check,,,,2018-02-17T00:38:00
+615,Path1,specimen_ready_for_test,,,,2018-02-17T00:38:00
+616,Path1,lab_test,,,,2018-02-17T00:38:00
+617,Path1,test_report,,,,2018-02-17T00:43:00
+618,Path1,send_report,,,,2018-02-17T00:43:00
+619,Path1,receive_report,,,,2018-02-17T00:43:00
+620,Path1,GP_checks_report,,,,2018-02-17T00:43:00
+621,Path1,inform_patient,,,,2018-02-17T00:43:00
+622,Path1,Finish,,,,2018-02-17T20:43:00
+623,Path1,Finish,,,,2018-02-17T20:43:00
